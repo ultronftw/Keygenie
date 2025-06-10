@@ -1,8 +1,0 @@
-2025-06-10 01:49:14.882 [info] Resolving launch configuration with substituted variables
-2025-06-10 01:49:15.581 [info] DAP Server launched with command: /home/ubuntu/.venv/bin/python /home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter
-2025-06-10 01:49:16.060 [info] Received 'debugpySockets' event from debugpy.
-2025-06-10 01:49:16.544 [info] Received 'debugpySockets' event from debugpy.
-2025-06-10 01:49:16.544 [info] Received 'debugpySockets' event from debugpy.
-2025-06-10 01:49:20.352 [info] Received 'debugpySockets' event from debugpy.
-2025-06-10 01:49:35.446 [info] Received 'debugpySockets' event from debugpy.
-2025-06-10 01:49:35.764 [info] Received 'debugpySockets' event from debugpy.

@@ -82,3 +82,9 @@ cd keygenv1 && pip install python-telegram-bot httpx && python3 keygenie_bot.py
 cd keygenv1 && git init && git remote add origin https://github.com/ultronftw/keygenv1 && git config user.name "UltronFTW" && git config user.email "ultronftw@hotmail.com" && git add . && git commit -m "Initial commit of KeyGenie bot files" && git push -u origin master
 /bin/python /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
 /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+pip install -r requirements.txt && python3 -m unittest test_keygenie_bot.py
+git init && git add . && git commit -m "Initial commit of KeyGenie Bot with README, config, and payment verification" && git remote add origin https://github.com/ultronftw/keygenv1.git && git push -u origin master
+git remote remove origin && git remote add origin https://github.com/ultronftw/keygenv1.git && git push -u origin master
+git remote remove origin && git remote add origin https://github.com/ultronftw/FinalBOTv1.git && git push -u origin master
+ls -la
+git rm -r --cached .vscode-server && rm -rf .vscode-server
