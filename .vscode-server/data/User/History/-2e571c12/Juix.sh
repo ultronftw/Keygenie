@@ -21,12 +21,13 @@ if [ ! -d ".git" ]; then
   git init
 fi
 
-# Check if remote 'testingbot' exists, set or add accordingly
-if git remote | grep -q ^testingbot$; then
-  # Set remote URL for testingbot
-  git remote set-url testingbot https://github.com/ultronftw/Keygenie.git
+# Check if remote 'origin' exists, set or add accordingly
+if git remote | grep -q ^origin$; then
+  # Set remote to a new random name to avoid conflicts
+  RANDOM_REMOTE="origin_$(date +%s)"
+  git remote set-url "$RANDOM_REMOTE" https://github.com/ultronftw/Keygenie.git
 else
-  git remote add testingbot https://github.com/ultronftw/Keygenie.git
+  git remote add origin https://github.com/ultronftw/Keygenie.git
 fi
 
 # Stage all changes (respecting .gitignore to exclude junk and large files)

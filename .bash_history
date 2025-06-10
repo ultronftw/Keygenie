@@ -115,3 +115,5 @@ CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 git push -u origin "$CURRENT_BRANCH"
 # Verify and output status
 git status
+chmod +x push_to_github.sh
+./push_to_github.sh

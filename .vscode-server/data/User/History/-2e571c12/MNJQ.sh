@@ -21,12 +21,11 @@ if [ ! -d ".git" ]; then
   git init
 fi
 
-# Check if remote 'testingbot' exists, set or add accordingly
-if git remote | grep -q ^testingbot$; then
-  # Set remote URL for testingbot
-  git remote set-url testingbot https://github.com/ultronftw/Keygenie.git
+# Check if remote 'origin' exists, set or add accordingly
+if git remote | grep -q ^origin$; then
+  git remote set-url origin https://github.com/ultronftw/Keygenie.git
 else
-  git remote add testingbot https://github.com/ultronftw/Keygenie.git
+  git remote add origin https://github.com/ultronftw/Keygenie.git
 fi
 
 # Stage all changes (respecting .gitignore to exclude junk and large files)
@@ -37,6 +36,13 @@ if ! git diff --cached --quiet; then
   git commit -m "Commit changes pushing code to GitHub"
 fi
 
+# Check for large files and track them with Git LFS if necessary
+if git lfs track "*.largefileextension"; then
+  git add .gitattributes
+  git commit -m "Track large files with Git LFS"
+fi
+
+# Check current branch and push to the correct branch
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 git push -u origin "$CURRENT_BRANCH"
 
