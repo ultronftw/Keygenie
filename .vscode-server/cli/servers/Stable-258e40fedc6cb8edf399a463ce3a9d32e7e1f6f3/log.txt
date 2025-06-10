@@ -92,3 +92,5 @@ Extension host agent listening on /tmp/code-65500c8d-a55b-4246-9e04-9325029e2c6b
 [02:23:42] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-1.331.0: github.copilot
 [02:23:42] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-1.331.0
 [02:23:42] Extension installed successfully: github.copilot file:///home/ubuntu/.vscode-server/extensions/extensions.json
+New EH opened, aborting shutdown
+[02:28:35] New EH opened, aborting shutdown
