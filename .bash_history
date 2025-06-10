@@ -48,3 +48,37 @@ pkill -f "python keygenie_bot.py" && sleep 2 && git config --global user.name "U
 sudo reboot
 /usr/bin/python /home/ubuntu/keygenie_bot.py
 /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+/home/ubuntu/.venv/bin/python /home/ubuntu/test_keygenie_bot.py
+#!/bin/bash
+# Navigate to project dir provided as argument, else current
+PROJECT_DIR="${1:-.}"
+cd "$PROJECT_DIR" || exit 1
+# Set git user config if not set
+if ! git config user.name >/dev/null; then   git config user.name "UltronFTW"; fi
+if ! git config user.email >/dev/null; then   git config user.email "ultronftw@hotmail.com"; fi
+# Initialize git repo if not yet initialized
+if [ ! -d ".git" ]; then   git init; fi
+# Check remote origin exists
+if git remote | grep origin >/dev/null; then
+  git remote set-url origin https://github.com/ultronftw/Keygenie.git; else   git remote add origin https://github.com/ultronftw/Keygenie.git; fi
+# Stage all changes
+git add .
+# Commit changes with a message, only if there are changes to commit
+if ! git diff --cached --quiet; then   git commit -m "Initial commit pushing code to GitHub"; fi
+# Push to main branch, create upstream if needed
+git push -u origin main
+git clone https://github.com/ultronftw/Keygenie
+/home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+/home/ubuntu/.venv/bin/python /home/ubuntu/test_keygenie_bot.py
+/home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+/home/ubuntu/.venv/bin/python /home/ubuntu/test_keygenie_bot.py
+/home/ubuntu/.venv/bin/python /home/ubuntu/keygenv1/keygenie_bot.py
+/home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+/home/ubuntu/.venv/bin/python /home/ubuntu/test_keygenie_bot.py
+pip install pytest
+/home/ubuntu/.venv/bin/python /home/ubuntu/test_keygenie_bot.py
+cd keygenv1 && pip install python-telegram-bot httpx && python3 keygenie_bot.py
+/home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+cd keygenv1 && git init && git remote add origin https://github.com/ultronftw/keygenv1 && git config user.name "UltronFTW" && git config user.email "ultronftw@hotmail.com" && git add . && git commit -m "Initial commit of KeyGenie bot files" && git push -u origin master
+/bin/python /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt
+/home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py

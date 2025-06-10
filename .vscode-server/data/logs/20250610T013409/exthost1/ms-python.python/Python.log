@@ -23,3 +23,20 @@
 2025-06-10 01:34:36.590 [info] Starting Pylance language server.
 2025-06-10 01:34:38.936 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
 2025-06-10 01:34:39.381 [info] CreateEnv Trigger - Skipping for /home/ubuntu/keygenie_bot.py
+2025-06-10 01:42:00.858 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/keygenv1/payment_verification_cron.py
+2025-06-10 01:42:29.885 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/keygenv1/config.py
+2025-06-10 01:45:00.180 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:45:00.217 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:45:00.217 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:45:00.217 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:45:00.217 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:45:00.217 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:45:00.217 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:45:00.281 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:45:01.592 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:47:46.023 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/keygenv1/keygenie_bot.py
+2025-06-10 01:48:08.842 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/keygenv1/test_keygenie_bot.py
+2025-06-10 01:49:19.067 [info] Send text to terminal:  /usr/bin/env /home/ubuntu/.venv/bin/python /home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41161 -- /home/ubuntu/keygenie_bot.py 
+2025-06-10 01:51:03.579 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu
+2025-06-10 01:54:05.594 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/test_keygenie_bot.py
+2025-06-10 01:55:15.367 [info] Send text to terminal: /home/ubuntu/.venv/bin/python /home/ubuntu/keygenie_bot.py

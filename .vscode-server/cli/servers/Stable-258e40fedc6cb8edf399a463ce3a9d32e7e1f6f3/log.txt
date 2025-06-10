@@ -21,3 +21,16 @@ Extension host agent listening on /tmp/code-993844a1-4362-437c-af3e-07459cc2212f
 [01:34:10] [<unknown>][d9578cd9][ManagementConnection] New connection established.
 [01:34:10] [<unknown>][b20ee211][ExtensionHostConnection] <2776> Launched Extension Host Process.
 [01:34:13] ComputeTargetPlatform: linux-x64
+New EH opened, aborting shutdown
+[01:39:10] New EH opened, aborting shutdown
+[01:43:50] [<unknown>][b20ee211][ExtensionHostConnection] The client has reconnected.
+[01:44:12] [<unknown>][b20ee211][ExtensionHostConnection] The client has reconnected.
+[01:44:33] [<unknown>][b20ee211][ExtensionHostConnection] The client has reconnected.
+[01:44:54] [<unknown>][b20ee211][ExtensionHostConnection] The client has reconnected.
+[02:02:05] [<unknown>][d9578cd9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[02:02:05] [<unknown>][b20ee211][ExtensionHostConnection] <2776> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[02:02:05] Last EH closed, waiting before shutting down
+[02:03:23] [<unknown>][fbb4d344][ManagementConnection] New connection established.
+[02:03:23] [<unknown>][592f82f0][ExtensionHostConnection] New connection established.
+[02:03:23] [<unknown>][592f82f0][ExtensionHostConnection] <6245> Launched Extension Host Process.

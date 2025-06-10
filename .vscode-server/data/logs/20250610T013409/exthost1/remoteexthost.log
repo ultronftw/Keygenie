@@ -26,3 +26,2134 @@
 2025-06-10 01:34:23.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-06-10 01:34:41.271 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
 2025-06-10 01:34:48.461 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-10 01:38:36.193 [error] Error: blackbox instance aborted
+    at SM.presentAssistantMessage (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4907:315)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5020:888)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.initiateTaskLoop (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4879:420)
+    at SM.startTask (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4843:17)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.675 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:28.676 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.677 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.681 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.682 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.683 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.684 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.686 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.687 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.688 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.689 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.691 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.692 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.693 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.694 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.695 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.695 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.696 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.697 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.698 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.699 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.699 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.700 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.700 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.701 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.701 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.702 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.704 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.705 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.705 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.706 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.706 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.707 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.707 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.708 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.708 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.709 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.709 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.710 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.710 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.711 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.711 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.711 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.712 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.712 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.713 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.714 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.714 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:40:29.715 [error] Error: Git error
+    at ChildProcess.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/main.js:2:601154)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-06-10 01:44:58.912 [warning] TextEditor is closed/disposed
+2025-06-10 01:44:58.912 [warning] TextEditor is closed/disposed
+2025-06-10 01:44:58.912 [warning] TextEditor is closed/disposed
+2025-06-10 01:44:59.028 [error] Error: Cannot call write after a stream was destroyed
+    at errorBuffer (node:internal/streams/writable:733:33)
+    at afterWrite (node:internal/streams/writable:714:5)
+    at onwrite (node:internal/streams/writable:688:7)
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:88:12)
+2025-06-10 01:45:00.236 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:00.236 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:00.236 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:00.973 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:00.973 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:00.973 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.287 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.287 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.287 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.643 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.643 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.643 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.960 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.960 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:01.960 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.243 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.243 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.243 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.558 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.558 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.558 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.875 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.875 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:02.875 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.511 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.511 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.511 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.843 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.843 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:03.843 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.176 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.177 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.177 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.509 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.509 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.510 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.812 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.812 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:04.812 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.100 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.101 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.101 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.398 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.398 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.398 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.704 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.704 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:05.704 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.018 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.018 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.018 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.298 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.298 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.298 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.606 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.606 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.606 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.886 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.886 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:06.886 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.170 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.170 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.170 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.502 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.502 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.502 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:07.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.092 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.092 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.092 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.407 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.407 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.407 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.687 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.687 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.687 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.997 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.997 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:08.997 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.312 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.312 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.313 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.596 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.596 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.596 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.914 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.914 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:09.914 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.232 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.233 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.233 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.511 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.512 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.512 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.821 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.821 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:10.821 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.101 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.101 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.101 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.381 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.381 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.674 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.674 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:11.674 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.000 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.000 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.000 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.293 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.293 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.293 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.587 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.587 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.587 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.905 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.905 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:12.905 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.187 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.187 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.187 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.814 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.814 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:13.814 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.118 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.118 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.118 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.466 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.466 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.466 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.790 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.790 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:14.790 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.107 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.107 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.107 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.391 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.391 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.391 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.976 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.976 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:15.976 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.332 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.332 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.332 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.624 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.624 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.624 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.966 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.966 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:16.966 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.252 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.252 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.553 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.553 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.553 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.872 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.872 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:17.872 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.155 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.155 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.155 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.463 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.463 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.463 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.781 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.781 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:18.781 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.074 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.074 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.074 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.700 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.700 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.700 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.989 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.989 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:19.989 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.290 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.290 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.290 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.610 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.610 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.610 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.890 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.890 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:20.890 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.173 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.173 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.173 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.494 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.494 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.494 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:21.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.102 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.102 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.102 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.402 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.402 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.402 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.700 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.700 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:22.700 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.017 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.017 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.017 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.335 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.335 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.335 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.626 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.626 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.626 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.941 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.941 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:23.941 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.268 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.268 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.268 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.638 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.638 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.638 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.952 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.952 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:24.952 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.247 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.247 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.247 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.564 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.564 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.564 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.883 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.883 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:25.883 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.201 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.201 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.201 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.485 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.485 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.485 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.785 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.785 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:26.785 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.114 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.114 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.114 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.395 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.395 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.395 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.710 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.710 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:27.710 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.313 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.313 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.313 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.615 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.615 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.615 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.895 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.896 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:28.896 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.214 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.214 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.214 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.805 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.805 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:29.805 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.089 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.089 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.089 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.409 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.409 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.409 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.689 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.689 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.689 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.994 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.994 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:30.994 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.316 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.316 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.316 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.597 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.597 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.597 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.903 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.903 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:31.903 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.223 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.223 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.223 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.506 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.506 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.506 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.507 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.812 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.812 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:32.812 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.134 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.134 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.134 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.420 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.420 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.420 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.701 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.701 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:33.701 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.020 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.020 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.020 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.303 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.303 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.303 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.610 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.610 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.610 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.949 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.950 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:34.950 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.295 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.296 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.296 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.583 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.583 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.583 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.894 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.894 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:35.894 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.216 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.216 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.216 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.497 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.812 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:36.812 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.126 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.126 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.126 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.444 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.444 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.444 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.728 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.728 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:37.728 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.049 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.049 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.049 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.397 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.397 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.397 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.719 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.719 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:38.719 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.299 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.299 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.299 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.620 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.620 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.620 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.907 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.907 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:39.907 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.207 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.207 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.208 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.526 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.526 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.526 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.844 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.844 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:40.844 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.155 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.155 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.155 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:41.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.101 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.101 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.101 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.399 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.399 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.399 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.692 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.693 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.693 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.973 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.973 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:42.973 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.283 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.283 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.283 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.599 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.599 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.599 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.910 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.910 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:43.910 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.513 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.513 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.513 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.835 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.835 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:44.835 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.129 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.129 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.129 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.430 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.430 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.430 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.767 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.767 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:45.767 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.059 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.060 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.060 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.355 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.355 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.355 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.676 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.676 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.676 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.956 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.956 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:46.956 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.262 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.263 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.263 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.547 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.547 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.547 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.864 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.864 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:47.864 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.186 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.186 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.186 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.478 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.478 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.478 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.795 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.795 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:48.795 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.094 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.094 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.094 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.400 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.401 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.401 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.715 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.715 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:49.715 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.041 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.041 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.041 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.356 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.356 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.356 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.689 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.689 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.689 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.972 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.972 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:50.973 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.280 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.280 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.280 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.595 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.596 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.596 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.879 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.879 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:51.879 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.188 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.188 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.188 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.531 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.531 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.531 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.830 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.830 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:52.830 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.148 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.148 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.148 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.431 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.431 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.431 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.739 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.739 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:53.739 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.023 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.023 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.023 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.626 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.626 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.626 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.931 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.931 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:54.931 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.244 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.244 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.244 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.595 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.596 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.596 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.909 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.909 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:55.909 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.253 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.253 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.253 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.569 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.570 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.570 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.864 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.864 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:56.864 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.179 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.179 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.179 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.501 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.502 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.502 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:57.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.103 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.103 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.103 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.389 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.390 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.390 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:58.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.288 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.289 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.289 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.608 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.608 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.608 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.898 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.899 [warning] TextEditor is closed/disposed
+2025-06-10 01:45:59.899 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.198 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.198 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.198 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.519 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.519 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.519 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.841 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.841 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:00.841 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.126 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.126 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.126 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.443 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.443 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.443 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.727 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.727 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:01.727 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.319 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.320 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.320 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.634 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.634 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.634 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.916 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.916 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:02.916 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.227 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.227 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.227 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.546 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.546 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.546 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.830 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.830 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:03.830 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.458 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.458 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.458 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.741 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.741 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:04.741 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.064 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.064 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.064 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.388 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.388 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.388 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.680 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.680 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.680 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.961 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.961 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:05.961 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.282 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.282 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.282 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.591 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.591 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.591 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.928 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.928 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:06.928 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.245 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.245 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.245 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.587 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.587 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.587 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.906 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.906 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:07.906 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.498 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.498 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.498 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.800 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.800 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:08.800 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.114 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.114 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.114 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.398 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.398 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.398 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.705 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.706 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:09.706 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.027 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.027 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.027 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.310 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.310 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.310 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.631 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.631 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.631 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.951 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.951 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:10.951 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.238 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.238 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.238 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.556 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.556 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.556 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.878 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.878 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:11.878 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.482 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.482 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.482 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.803 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.803 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:12.804 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.160 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.160 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.160 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.451 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.451 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.451 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.749 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.749 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:13.749 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.068 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.068 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.068 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.359 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.359 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.359 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.661 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.661 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.661 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.946 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.946 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:14.946 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.267 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.267 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.267 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.592 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.592 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.592 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.912 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.912 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:15.912 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.203 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.203 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.203 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.505 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.505 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.505 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.788 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.788 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:16.788 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.111 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.111 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.111 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.393 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.393 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.393 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.694 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.694 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:17.694 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.014 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.014 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.014 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.305 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.305 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.305 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.621 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.621 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.621 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.939 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.939 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:18.939 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.223 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.223 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.223 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:19.817 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.142 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.142 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.142 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.425 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.425 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.425 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.709 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.710 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:20.710 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.030 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.030 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.030 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.349 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.349 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.349 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.638 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.638 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.638 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.957 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.957 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:21.957 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.241 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.241 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.241 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.545 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.545 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.545 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.874 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.874 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:22.875 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.157 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.157 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.157 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.461 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.461 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.461 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.783 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.783 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:23.783 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.066 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.066 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.066 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.390 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.390 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.390 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.673 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.673 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.673 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.994 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.995 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:24.995 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.278 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.278 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.278 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.581 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.581 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.581 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.901 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.901 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:25.901 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.222 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.222 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.222 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.505 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.505 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.809 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.809 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:26.809 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.133 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.133 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.133 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.419 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.419 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.419 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.735 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.735 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:27.735 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.057 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.057 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.057 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.339 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.339 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.339 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.622 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.622 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.622 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.943 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.943 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:28.943 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.267 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.267 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.267 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.580 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.580 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.580 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.862 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.862 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:29.862 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.178 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.178 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.178 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.501 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.501 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.501 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.784 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.784 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:30.784 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.105 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.426 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.426 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.426 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.731 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.731 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:31.731 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.038 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.039 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.039 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.336 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.336 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.336 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.649 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.649 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.649 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.939 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.939 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:32.939 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.221 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.221 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.221 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.506 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.506 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.506 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.827 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.827 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:33.827 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.113 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.113 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.113 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.415 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.415 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.415 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.698 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.698 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:34.698 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.022 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.022 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.022 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.633 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.633 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.633 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.934 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.934 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:35.934 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.255 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.255 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.255 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.550 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.550 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.550 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.832 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.832 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:36.832 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.153 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.153 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.153 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.439 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.439 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.439 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.738 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.738 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:37.738 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.060 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.060 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.060 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.343 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.646 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.646 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.646 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.967 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.967 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:38.967 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.555 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.555 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.555 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.878 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.878 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:39.878 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.164 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.481 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.481 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.481 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.765 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.765 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:40.765 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.073 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.073 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.073 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.395 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.395 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.395 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.981 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.981 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:41.981 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.273 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.273 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.273 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.590 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.590 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.590 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.906 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.906 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:42.906 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.195 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.195 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.195 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.509 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.509 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.509 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:43.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.127 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.127 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.127 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.412 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.412 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.412 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.718 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.718 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:44.718 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.039 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.039 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.039 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.322 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.322 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.322 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.648 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.648 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.648 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:45.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.252 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.252 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.252 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.558 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.559 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.559 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.879 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.879 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:46.879 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.163 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.163 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.163 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.468 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.468 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.468 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.789 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.790 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:47.790 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.073 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.073 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.073 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.379 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.379 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.379 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.677 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.990 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.990 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:48.990 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.308 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.308 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.308 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.608 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.608 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.608 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.966 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:49.966 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.263 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.263 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.263 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.605 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.605 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.605 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.919 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.919 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:50.919 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.230 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.230 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.230 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.534 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.534 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.534 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.844 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.844 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:51.844 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.162 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.162 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.162 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.447 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.447 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.447 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.751 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.751 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:52.751 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.074 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.074 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.075 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.365 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.365 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.365 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.685 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.685 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.685 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.971 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.971 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:53.971 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.271 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.272 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.272 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.592 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.592 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.592 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.915 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.915 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:54.915 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.209 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.210 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.210 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.514 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.515 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.515 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.815 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.815 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:55.815 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.171 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.171 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.171 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.461 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.461 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.461 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.767 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.767 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:56.767 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.092 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.092 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.092 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.377 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.377 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.377 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.678 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.678 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.678 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.999 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:57.999 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.000 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.286 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.286 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.286 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.589 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.589 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.589 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.913 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.913 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:58.913 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.197 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.197 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.197 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.501 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.501 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.501 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.802 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.802 [warning] TextEditor is closed/disposed
+2025-06-10 01:46:59.802 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.119 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.119 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.119 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.401 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.401 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.401 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:00.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.046 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.047 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.047 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.372 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.372 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.372 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.702 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.702 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:01.702 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.019 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.019 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.019 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.314 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.314 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.314 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.627 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.627 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.627 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.948 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.948 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:02.948 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.236 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.236 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.236 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.546 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.546 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.546 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.838 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.838 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:03.838 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.154 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.154 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.154 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.479 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.479 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.479 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.766 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.766 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:04.766 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.084 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.084 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.085 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.406 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.406 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.406 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.696 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.696 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:05.696 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.012 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.012 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.012 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.297 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.298 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.298 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.607 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.607 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.607 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.923 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.923 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:06.923 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.211 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.211 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.211 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.530 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.530 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.530 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.881 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.881 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:07.881 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.191 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.508 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.508 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.508 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.790 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.790 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:08.790 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.146 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.146 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.146 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.437 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.438 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.438 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:09.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.071 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.071 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.071 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.356 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.356 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.356 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.640 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.640 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.640 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.964 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.964 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:10.964 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.250 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.572 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.572 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.572 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.898 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.898 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:11.898 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.205 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.205 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.205 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.490 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.490 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.491 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:12.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.460 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.460 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.460 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:13.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.059 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.059 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.059 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.666 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.666 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.666 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.986 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.986 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:14.986 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.326 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.326 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.326 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.645 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.645 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.645 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.930 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.930 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:15.930 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.251 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.575 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.575 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.575 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.867 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.868 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:16.868 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.182 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.182 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.182 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.466 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.466 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.466 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.776 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.776 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:17.776 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.060 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.061 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.061 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.382 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.666 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.666 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.666 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.971 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.971 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:18.971 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.256 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.256 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.256 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.584 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.585 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.585 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.871 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.871 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:19.871 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.166 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.166 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.166 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.487 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.487 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.487 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:20.811 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.124 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.124 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.124 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.456 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.456 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.456 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:21.747 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.070 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.070 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.070 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.362 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.362 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.362 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.646 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.647 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.647 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.987 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.987 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:22.988 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.273 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.273 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.273 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.575 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.575 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.575 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.912 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.912 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:23.913 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.240 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.240 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.240 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.572 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.573 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.573 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.894 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.894 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:24.894 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.184 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.184 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.184 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.503 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.503 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.503 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.850 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.850 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:25.850 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.169 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.169 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.169 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.483 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.483 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.484 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:26.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.129 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.129 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.129 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.462 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.462 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.462 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.748 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.748 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:27.748 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.055 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.055 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.056 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.379 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.379 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.379 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.664 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.664 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.664 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.989 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.989 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:28.989 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.348 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.348 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.348 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.673 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.673 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.673 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.958 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.958 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:29.958 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.266 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.266 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.266 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.605 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.606 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.606 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.919 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.920 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:30.920 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.206 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.206 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.206 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.490 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.491 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.491 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.775 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.775 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:31.775 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.097 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.097 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.097 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.419 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.419 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.419 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.998 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.998 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:32.998 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:33.319 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:33.319 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:33.319 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:33.653 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:33.653 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:33.653 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.031 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.326 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.327 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.327 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.642 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.642 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.642 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:34.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.252 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.252 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.252 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.567 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.567 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.567 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.893 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.893 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:35.893 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.194 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.194 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.194 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.507 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.507 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.507 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.824 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.824 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:36.824 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.107 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.107 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.414 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.415 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.415 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.735 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.735 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:37.735 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.026 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.026 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.026 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.344 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.344 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.344 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.665 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.665 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.665 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.952 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.952 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:38.952 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.253 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.253 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.253 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.576 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.576 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.576 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.868 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.868 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:39.868 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.170 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.170 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.170 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.493 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.493 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.493 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.780 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.780 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:40.780 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.072 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.072 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.072 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.389 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.389 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.389 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.701 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.702 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:41.702 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.007 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.321 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.321 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.321 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.672 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.672 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.672 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.987 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.987 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:42.987 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:43.265 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:43.265 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:43.570 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.274 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:4,$model169)
+2025-06-10 01:47:57.274 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:4,$model169)
+2025-06-10 01:47:57.274 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:4,$model169)
+2025-06-10 01:47:57.274 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.274 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.274 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.589 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.589 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.589 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.866 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.866 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:57.866 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.182 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.182 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.182 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.460 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.460 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.460 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.740 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.740 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:58.740 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.020 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.020 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.020 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.347 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.348 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.348 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.629 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.629 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.629 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:47:59.965 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.244 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.244 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.244 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.534 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.535 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.535 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.855 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.855 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:00.855 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.136 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.437 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.438 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.438 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.755 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.755 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:01.755 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.039 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.039 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.039 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.317 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.634 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.634 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.634 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.913 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.913 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:02.913 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.213 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.213 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.213 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.531 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.531 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.531 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:03.807 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.213 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.213 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.213 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.499 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.499 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.499 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.818 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.818 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:04.818 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.422 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.422 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.422 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:05.712 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.032 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.032 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.032 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.315 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.315 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.315 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.623 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.623 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.623 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.915 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.915 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:06.915 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.223 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.224 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.224 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.504 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.784 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.784 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:07.784 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:08.046 [error] Error: blackbox instance aborted
+    at SM.presentAssistantMessage (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4907:315)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5020:888)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.recursivelyMakeblackboxRequests (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5024:1592)
+    at SM.initiateTaskLoop (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4879:420)
+    at SM.resumeTaskFromHistory (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4879:114)
+2025-06-10 01:48:08.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:08.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:08.106 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:08.393 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:08.394 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:08.394 [warning] TextEditor is closed/disposed
+2025-06-10 01:48:09.732 [error] Error: blackbox instance aborted
+    at SM.say (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4834:2561)
+    at I (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4907:3544)
+    at SM.presentAssistantMessage (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:4929:304)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at SM.presentAssistantMessage (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5012:619)
+    at SM.presentAssistantMessage (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5012:619)
+    at SM.presentAssistantMessage (/home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95/dist/extension.js:5012:619)
+2025-06-10 01:49:04.671 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugDynamicConfigurations'
+2025-06-10 01:49:13.715 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-06-10 01:54:18.668 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-10 01:54:18.792 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-06-10 02:02:05.138 [info] Extension host terminating: received terminate message from renderer
+2025-06-10 02:02:05.140 [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/892db4e346077e0e61b3ea8dfeb55752/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-06-10 02:02:05.309 [info] Extension host with pid 2776 exiting with code 0

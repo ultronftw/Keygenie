@@ -50,3 +50,131 @@
 2025-06-10 01:34:55.411 [info] > git show --textconv :keygenie_bot.py [17ms]
 2025-06-10 01:34:55.427 [info] > git ls-files --stage -- keygenie_bot.py [17ms]
 2025-06-10 01:34:55.447 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [3ms]
+2025-06-10 01:35:29.715 [info] > git ls-files --stage -- keygenie_bot.py [18ms]
+2025-06-10 01:35:29.728 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [1ms]
+2025-06-10 01:35:30.043 [info] > git show --textconv :keygenie_bot.py [14ms]
+2025-06-10 01:36:17.612 [info] > git ls-files --stage -- keygenie_bot.py [20ms]
+2025-06-10 01:36:17.631 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [3ms]
+2025-06-10 01:36:17.997 [info] > git show --textconv :keygenie_bot.py [18ms]
+2025-06-10 01:36:32.768 [info] > git show --textconv :.bashrc [38ms]
+2025-06-10 01:36:32.768 [info] > git show --textconv HEAD:.bashrc [24ms]
+2025-06-10 01:36:32.769 [info] > git ls-tree -l HEAD -- .bashrc [2ms]
+2025-06-10 01:36:32.774 [info] > git ls-files --stage -- .bashrc [18ms]
+2025-06-10 01:36:32.783 [info] > git cat-file -s b488fcc4cee656840d7a756298456eaa243b3e46 [1ms]
+2025-06-10 01:40:24.664 [info] > git check-ignore -v -z --stdin [21ms]
+2025-06-10 01:40:26.093 [info] > git check-ignore -v -z --stdin [32ms]
+2025-06-10 01:40:26.920 [info] > git check-ignore -v -z --stdin [16ms]
+2025-06-10 01:40:28.664 [info] > git check-ignore -v -z --stdin [48ms]
+2025-06-10 01:40:30.463 [info] > git show --textconv :keygenie_bot.py [18ms]
+2025-06-10 01:40:30.481 [info] > git ls-files --stage -- keygenie_bot.py [21ms]
+2025-06-10 01:40:30.493 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [2ms]
+2025-06-10 01:40:31.319 [info] > git show --textconv :test_keygenie_bot.py [17ms]
+2025-06-10 01:40:31.340 [info] > git ls-files --stage -- test_keygenie_bot.py [23ms]
+2025-06-10 01:40:31.354 [info] > git cat-file -s 33d1760beb811b423bb7dd3c6c5a3d4b4837d899 [3ms]
+2025-06-10 01:41:34.279 [info] > git check-ignore -v -z --stdin [20ms]
+2025-06-10 01:42:01.945 [info] > git show --textconv :keygenv1/payment_verification_cron.py [17ms]
+2025-06-10 01:42:01.959 [info] > git hash-object -t tree /dev/null [3ms]
+2025-06-10 01:42:01.959 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:42:01.963 [info] > git ls-files --stage -- keygenv1/payment_verification_cron.py [21ms]
+2025-06-10 01:42:01.964 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:42:13.156 [info] > git check-ignore -v -z --stdin [18ms]
+2025-06-10 01:42:30.459 [info] > git show --textconv :keygenv1/config.py [17ms]
+2025-06-10 01:42:30.459 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:42:30.468 [info] > git ls-files --stage -- keygenv1/config.py [11ms]
+2025-06-10 01:42:30.469 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:42:35.589 [info] > git check-ignore -v -z --stdin [19ms]
+2025-06-10 01:45:00.984 [info] > git show --textconv :test_keygenie_bot.py [24ms]
+2025-06-10 01:45:00.992 [info] > git ls-files --stage -- test_keygenie_bot.py [20ms]
+2025-06-10 01:45:01.003 [info] > git cat-file -s 33d1760beb811b423bb7dd3c6c5a3d4b4837d899 [2ms]
+2025-06-10 01:47:46.669 [info] > git show --textconv :keygenv1/keygenie_bot.py [14ms]
+2025-06-10 01:47:46.670 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:47:46.685 [info] > git ls-files --stage -- keygenv1/keygenie_bot.py [17ms]
+2025-06-10 01:47:46.685 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:47:53.168 [info] > git check-ignore -v -z --stdin [18ms]
+2025-06-10 01:47:57.678 [info] > git show --textconv :keygenv1/keygenie_bot.py [28ms]
+2025-06-10 01:47:57.679 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:47:57.681 [info] > git ls-files --stage -- keygenv1/keygenie_bot.py [17ms]
+2025-06-10 01:47:57.681 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:03.217 [info] > git show --textconv :keygenv1/keygenie_bot.py [19ms]
+2025-06-10 01:48:03.217 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:03.224 [info] > git ls-files --stage -- keygenv1/keygenie_bot.py [12ms]
+2025-06-10 01:48:03.225 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:19.587 [info] > git show --textconv :keygenv1/keygenie_bot.py [16ms]
+2025-06-10 01:48:19.587 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:19.602 [info] > git ls-files --stage -- keygenv1/keygenie_bot.py [17ms]
+2025-06-10 01:48:19.603 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:21.146 [info] > git show --textconv :keygenv1/config.py [18ms]
+2025-06-10 01:48:21.147 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:21.160 [info] > git ls-files --stage -- keygenv1/config.py [18ms]
+2025-06-10 01:48:21.160 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:22.617 [info] > git show --textconv :keygenv1/payment_verification_cron.py [21ms]
+2025-06-10 01:48:22.618 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:22.630 [info] > git ls-files --stage -- keygenv1/payment_verification_cron.py [16ms]
+2025-06-10 01:48:22.631 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:48:24.101 [info] > git show --textconv :test_keygenie_bot.py [18ms]
+2025-06-10 01:48:24.118 [info] > git ls-files --stage -- test_keygenie_bot.py [21ms]
+2025-06-10 01:48:24.132 [info] > git cat-file -s 33d1760beb811b423bb7dd3c6c5a3d4b4837d899 [3ms]
+2025-06-10 01:48:25.662 [info] > git show --textconv :keygenie_bot.py [17ms]
+2025-06-10 01:48:25.679 [info] > git ls-files --stage -- keygenie_bot.py [21ms]
+2025-06-10 01:48:25.690 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [1ms]
+2025-06-10 01:48:27.300 [info] > git show --textconv :test_keygenie_bot.py [18ms]
+2025-06-10 01:48:27.317 [info] > git ls-files --stage -- test_keygenie_bot.py [21ms]
+2025-06-10 01:48:27.334 [info] > git cat-file -s 33d1760beb811b423bb7dd3c6c5a3d4b4837d899 [3ms]
+2025-06-10 01:48:35.176 [info] > git show --textconv :config.py [18ms]
+2025-06-10 01:48:35.194 [info] > git ls-files --stage -- config.py [21ms]
+2025-06-10 01:48:35.208 [info] > git cat-file -s 567b37427eff0114a55472a8eed5e76373271c18 [3ms]
+2025-06-10 01:48:36.354 [info] > git show --textconv :keygenie_bot.py [15ms]
+2025-06-10 01:48:36.374 [info] > git ls-files --stage -- keygenie_bot.py [21ms]
+2025-06-10 01:48:36.386 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [1ms]
+2025-06-10 01:49:41.314 [info] > git show --textconv :test_keygenie_bot.py [17ms]
+2025-06-10 01:49:41.327 [info] > git ls-files --stage -- test_keygenie_bot.py [14ms]
+2025-06-10 01:49:41.339 [info] > git cat-file -s 33d1760beb811b423bb7dd3c6c5a3d4b4837d899 [2ms]
+2025-06-10 01:49:47.453 [info] > git show --textconv :keygenv1/payment_verification_cron.py [14ms]
+2025-06-10 01:49:47.454 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:47.470 [info] > git ls-files --stage -- keygenv1/payment_verification_cron.py [18ms]
+2025-06-10 01:49:47.471 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:49.455 [info] > git show --textconv :keygenv1/config.py [18ms]
+2025-06-10 01:49:49.456 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:49.471 [info] > git ls-files --stage -- keygenv1/config.py [17ms]
+2025-06-10 01:49:49.472 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:50.120 [info] > git show --textconv :keygenv1/keygenie_bot.py [15ms]
+2025-06-10 01:49:50.120 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:50.130 [info] > git ls-files --stage -- keygenv1/keygenie_bot.py [11ms]
+2025-06-10 01:49:50.131 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:52.365 [info] > git show --textconv :test_keygenie_bot.py [18ms]
+2025-06-10 01:49:52.382 [info] > git ls-files --stage -- test_keygenie_bot.py [18ms]
+2025-06-10 01:49:52.396 [info] > git cat-file -s 33d1760beb811b423bb7dd3c6c5a3d4b4837d899 [2ms]
+2025-06-10 01:49:53.596 [info] > git show --textconv :keygenv1/payment_verification_cron.py [16ms]
+2025-06-10 01:49:53.597 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:53.607 [info] > git ls-files --stage -- keygenv1/payment_verification_cron.py [12ms]
+2025-06-10 01:49:53.609 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:54.703 [info] > git show --textconv :keygenie_bot.py [20ms]
+2025-06-10 01:49:54.717 [info] > git ls-files --stage -- keygenie_bot.py [19ms]
+2025-06-10 01:49:54.732 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [3ms]
+2025-06-10 01:49:56.256 [info] > git show --textconv :keygenv1/keygenie_bot.py [12ms]
+2025-06-10 01:49:56.257 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:49:56.271 [info] > git ls-files --stage -- keygenv1/keygenie_bot.py [16ms]
+2025-06-10 01:49:56.272 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:50:30.071 [info] > git show --textconv :payment_verification_cron.py [17ms]
+2025-06-10 01:50:30.091 [info] > git ls-files --stage -- payment_verification_cron.py [21ms]
+2025-06-10 01:50:30.102 [info] > git cat-file -s be6756a3345b0b942bd6d942c0602256dd8eccbb [2ms]
+2025-06-10 01:51:14.759 [info] > git show --textconv :config.py [20ms]
+2025-06-10 01:51:14.775 [info] > git ls-files --stage -- config.py [17ms]
+2025-06-10 01:51:14.787 [info] > git cat-file -s 567b37427eff0114a55472a8eed5e76373271c18 [1ms]
+2025-06-10 01:51:15.476 [info] > git show --textconv :payment_verification_cron.py [17ms]
+2025-06-10 01:51:15.494 [info] > git ls-files --stage -- payment_verification_cron.py [19ms]
+2025-06-10 01:51:15.510 [info] > git cat-file -s be6756a3345b0b942bd6d942c0602256dd8eccbb [2ms]
+2025-06-10 01:51:32.090 [info] > git show --textconv :keygenv1/keygenie_bot.py [18ms]
+2025-06-10 01:51:32.091 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:51:32.100 [info] > git ls-files --stage -- keygenv1/keygenie_bot.py [13ms]
+2025-06-10 01:51:32.101 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:54:02.592 [info] > git show --textconv :test_keygenie_bot.py [18ms]
+2025-06-10 01:54:02.609 [info] > git ls-files --stage -- test_keygenie_bot.py [21ms]
+2025-06-10 01:54:02.621 [info] > git cat-file -s 33d1760beb811b423bb7dd3c6c5a3d4b4837d899 [2ms]
+2025-06-10 01:55:12.462 [info] > git show --textconv :keygenv1/payment_verification_cron.py [18ms]
+2025-06-10 01:55:12.463 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:55:12.472 [info] > git ls-files --stage -- keygenv1/payment_verification_cron.py [16ms]
+2025-06-10 01:55:12.473 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenv1/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenv1%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:55:13.587 [info] > git show --textconv :keygenie_bot.py [19ms]
+2025-06-10 01:55:13.602 [info] > git ls-files --stage -- keygenie_bot.py [20ms]
+2025-06-10 01:55:13.619 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [4ms]
