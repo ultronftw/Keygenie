@@ -88,3 +88,30 @@ git remote remove origin && git remote add origin https://github.com/ultronftw/k
 git remote remove origin && git remote add origin https://github.com/ultronftw/FinalBOTv1.git && git push -u origin master
 ls -la
 git rm -r --cached .vscode-server && rm -rf .vscode-server
+bash push_to_github.sh
+git checkout master
+git add keygenv1
+git commit -m "Add changes from keygenv1"
+git push -u origin master
+#!/bin/bash
+# Kill any running instances of the Telegram bot
+pkill -f "python keygenie_bot.py" && sleep 2
+# Set git user config globally if not already set
+if ! git config --global user.name &>/dev/null; then   git config --global user.name "UltronFTW"; fi
+if ! git config --global user.email &>/dev/null; then   git config --global user.email "ultronftw@hotmail.com"; fi
+# Navigate to the project directory or current directory if none specified
+PROJECT_DIR="${1:-.}"
+cd "$PROJECT_DIR" || { echo "Directory not found: $PROJECT_DIR"; exit 1; }
+# Initialize git repository if not initialized
+if [ ! -d ".git" ]; then   git init; fi
+# Check if remote 'origin' exists, set or add accordingly
+if git remote | grep -q ^origin$; then   git remote set-url origin https://github.com/ultronftw/Keygenie.git; else   git remote add origin https://github.com/ultronftw/Keygenie.git; fi
+# Stage all changes
+git add .
+# Commit only if there are staged changes
+if ! git diff --cached --quiet; then   git commit -m "Initial commit pushing code to GitHub"; fi
+# Check current branch and push to the correct branch
+CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+git push -u origin "$CURRENT_BRANCH"
+# Verify and output status
+git status
