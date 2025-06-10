@@ -1,0 +1,554 @@
+{
+    "injected_packages": {
+        "jupyter-collaboration": {
+            "app_paths": [],
+            "app_paths_of_dependencies": {
+                "jsonschema": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jsonschema",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-client": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-kernel",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-kernelspec",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-run",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-core": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-migrate",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-troubleshoot",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-events": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-events",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-server": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-server",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-server-fileid": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-fileid",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbclient": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-execute",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbconvert": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-dejavu",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-nbconvert",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbformat": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-trust",
+                        "__type__": "Path"
+                    }
+                ],
+                "pygments": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/pygmentize",
+                        "__type__": "Path"
+                    }
+                ],
+                "send2trash": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/send2trash",
+                        "__type__": "Path"
+                    }
+                ],
+                "websocket-client": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/wsdump",
+                        "__type__": "Path"
+                    }
+                ]
+            },
+            "apps": [],
+            "apps_of_dependencies": [
+                "jsonschema",
+                "jupyter-events",
+                "jupyter-fileid",
+                "jupyter-server",
+                "jupyter-kernel",
+                "jupyter-kernelspec",
+                "jupyter-run",
+                "jupyter",
+                "jupyter-migrate",
+                "jupyter-troubleshoot",
+                "jupyter-dejavu",
+                "jupyter-nbconvert",
+                "jupyter-execute",
+                "jupyter-trust",
+                "pygmentize",
+                "send2trash",
+                "wsdump"
+            ],
+            "include_apps": false,
+            "include_dependencies": false,
+            "package": "jupyter-collaboration",
+            "package_or_url": "jupyter-collaboration",
+            "package_version": "3.1.0",
+            "pip_args": [],
+            "suffix": ""
+        },
+        "jupyterlab": {
+            "app_paths": [
+                {
+                    "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jlpm",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-lab",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-labextension",
+                    "__type__": "Path"
+                },
+                {
+                    "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-labhub",
+                    "__type__": "Path"
+                }
+            ],
+            "app_paths_of_dependencies": {
+                "babel": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/pybabel",
+                        "__type__": "Path"
+                    }
+                ],
+                "charset-normalizer": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/normalizer",
+                        "__type__": "Path"
+                    }
+                ],
+                "debugpy": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/debugpy",
+                        "__type__": "Path"
+                    }
+                ],
+                "httpx": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/httpx",
+                        "__type__": "Path"
+                    }
+                ],
+                "ipython": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/ipython",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/ipython3",
+                        "__type__": "Path"
+                    }
+                ],
+                "json5": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/pyjson5",
+                        "__type__": "Path"
+                    }
+                ],
+                "jsonpointer": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jsonpointer",
+                        "__type__": "Path"
+                    }
+                ],
+                "jsonschema": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jsonschema",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-client": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-kernel",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-kernelspec",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-run",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-core": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-migrate",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-troubleshoot",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-events": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-events",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-server": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-server",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbclient": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-execute",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbconvert": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-dejavu",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-nbconvert",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbformat": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-trust",
+                        "__type__": "Path"
+                    }
+                ],
+                "pygments": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/pygmentize",
+                        "__type__": "Path"
+                    }
+                ],
+                "send2trash": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/send2trash",
+                        "__type__": "Path"
+                    }
+                ],
+                "websocket-client": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/wsdump",
+                        "__type__": "Path"
+                    }
+                ]
+            },
+            "apps": [
+                "jlpm",
+                "jupyter-lab",
+                "jupyter-labextension",
+                "jupyter-labhub"
+            ],
+            "apps_of_dependencies": [
+                "httpx",
+                "debugpy",
+                "ipython",
+                "ipython3",
+                "pygmentize",
+                "jupyter-kernel",
+                "jupyter-kernelspec",
+                "jupyter-run",
+                "jupyter",
+                "jupyter-migrate",
+                "jupyter-troubleshoot",
+                "jupyter-server",
+                "jupyter-events",
+                "jsonschema",
+                "jsonpointer",
+                "jupyter-dejavu",
+                "jupyter-nbconvert",
+                "jupyter-execute",
+                "jupyter-trust",
+                "send2trash",
+                "wsdump",
+                "pybabel",
+                "pyjson5",
+                "normalizer"
+            ],
+            "include_apps": false,
+            "include_dependencies": false,
+            "package": "jupyterlab",
+            "package_or_url": "jupyterlab",
+            "package_version": "4.3.5",
+            "pip_args": [],
+            "suffix": ""
+        },
+        "notebook": {
+            "app_paths": [
+                {
+                    "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-notebook",
+                    "__type__": "Path"
+                }
+            ],
+            "app_paths_of_dependencies": {
+                "babel": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/pybabel",
+                        "__type__": "Path"
+                    }
+                ],
+                "charset-normalizer": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/normalizer",
+                        "__type__": "Path"
+                    }
+                ],
+                "debugpy": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/debugpy",
+                        "__type__": "Path"
+                    }
+                ],
+                "httpx": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/httpx",
+                        "__type__": "Path"
+                    }
+                ],
+                "ipython": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/ipython",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/ipython3",
+                        "__type__": "Path"
+                    }
+                ],
+                "json5": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/pyjson5",
+                        "__type__": "Path"
+                    }
+                ],
+                "jsonpointer": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jsonpointer",
+                        "__type__": "Path"
+                    }
+                ],
+                "jsonschema": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jsonschema",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-client": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-kernel",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-kernelspec",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-run",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-core": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-migrate",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-troubleshoot",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-events": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-events",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyter-server": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-server",
+                        "__type__": "Path"
+                    }
+                ],
+                "jupyterlab": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jlpm",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-lab",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-labextension",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-labhub",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbclient": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-execute",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbconvert": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-dejavu",
+                        "__type__": "Path"
+                    },
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-nbconvert",
+                        "__type__": "Path"
+                    }
+                ],
+                "nbformat": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-trust",
+                        "__type__": "Path"
+                    }
+                ],
+                "pygments": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/pygmentize",
+                        "__type__": "Path"
+                    }
+                ],
+                "send2trash": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/send2trash",
+                        "__type__": "Path"
+                    }
+                ],
+                "websocket-client": [
+                    {
+                        "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/wsdump",
+                        "__type__": "Path"
+                    }
+                ]
+            },
+            "apps": [
+                "jupyter-notebook"
+            ],
+            "apps_of_dependencies": [
+                "jupyter-server",
+                "jupyter-kernel",
+                "jupyter-kernelspec",
+                "jupyter-run",
+                "jupyter",
+                "jupyter-migrate",
+                "jupyter-troubleshoot",
+                "jupyter-events",
+                "jsonschema",
+                "jsonpointer",
+                "jupyter-dejavu",
+                "jupyter-nbconvert",
+                "jupyter-execute",
+                "jupyter-trust",
+                "pygmentize",
+                "send2trash",
+                "wsdump",
+                "pybabel",
+                "pyjson5",
+                "normalizer",
+                "jlpm",
+                "jupyter-lab",
+                "jupyter-labextension",
+                "jupyter-labhub",
+                "httpx",
+                "debugpy",
+                "ipython",
+                "ipython3"
+            ],
+            "include_apps": false,
+            "include_dependencies": false,
+            "package": "notebook",
+            "package_or_url": "notebook",
+            "package_version": "7.3.2",
+            "pip_args": [],
+            "suffix": ""
+        }
+    },
+    "main_package": {
+        "app_paths": [
+            {
+                "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter",
+                "__type__": "Path"
+            },
+            {
+                "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-migrate",
+                "__type__": "Path"
+            },
+            {
+                "__Path__": "/home/ubuntu/.local/pipx/venvs/jupyter-core/bin/jupyter-troubleshoot",
+                "__type__": "Path"
+            }
+        ],
+        "app_paths_of_dependencies": {},
+        "apps": [
+            "jupyter",
+            "jupyter-migrate",
+            "jupyter-troubleshoot"
+        ],
+        "apps_of_dependencies": [],
+        "include_apps": true,
+        "include_dependencies": false,
+        "package": "jupyter-core",
+        "package_or_url": "jupyter-core",
+        "package_version": "5.7.2",
+        "pip_args": [],
+        "suffix": ""
+    },
+    "pipx_metadata_version": "0.2",
+    "python_version": "Python 3.10.12",
+    "venv_args": []
+}

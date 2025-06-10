@@ -1,0 +1,11 @@
+{
+  "id": "1749509469257",
+  "timestamp": 1749509469257,
+  "filePath": "config.py",
+  "oldContent": "# Configuration file for KeyGenie bot\n\nBOT_TOKEN = \"7451215429:AAHGUMU5Vq8FYlfPymIopxhLPu8AowwVdKE\"\nADMIN_ID = 123456789  # Replace with your Telegram user ID (int)\n\nBTC_ADDRESS = \"your_btc_address\"\nLTC_ADDRESS = \"your_ltc_address\"\nUSDT_ADDRESS = \"your_usdt_address\"\n\nPRODUCTS = {\n    \"Product A\": {\"price\": \"0.001 BTC\", \"key\": \"KEY_FOR_PRODUCT_A\"},\n    \"Product B\": {\"price\": \"0.01 LTC\", \"key\": \"KEY_FOR_PRODUCT_B\"},\n    \"Product C\": {\"price\": \"10 USDT\", \"key\": \"KEY_FOR_PRODUCT_C\"},\n}\n",
+  "content": "# Configuration file for KeyGenie bot\n\nBOT_TOKEN = \"7451215429:AAHGUMU5Vq8FYlfPymIopxhLPu8AowwVdKE\"\nADMIN_ID = 123456789  # Replace with your Telegram user ID (int)\n\nBTC_ADDRESS = \"your_btc_address\"\nLTC_ADDRESS = \"your_ltc_address\"\nUSDT_ADDRESS = \"your_usdt_address\"\n\nPRODUCTS = {\n    \"Product A\": {\"price\": \"0.001 BTC\", \"key\": \"KEY_FOR_PRODUCT_A\"},\n    \"Product B\": {\"price\": \"0.01 LTC\", \"key\": \"KEY_FOR_PRODUCT_B\"},\n    \"Product C\": {\"price\": \"10 USDT\", \"key\": \"KEY_FOR_PRODUCT_C\"},\n}\n\n# Auto verification toggle: True to enable automatic payment verification, False for manual only\nAUTO_VERIFICATION_ENABLED = False\n\n# Payment verification API endpoint and API key (example placeholders)\nPAYMENT_VERIFICATION_API_URL = \"https://api.example.com/verify_payment\"\nPAYMENT_VERIFICATION_API_KEY = \"your_api_key_here\"\n",
+  "diff": "@@ -11,4 +11,11 @@\n     \"Product A\": {\"price\": \"0.001 BTC\", \"key\": \"KEY_FOR_PRODUCT_A\"},\n     \"Product B\": {\"price\": \"0.01 LTC\", \"key\": \"KEY_FOR_PRODUCT_B\"},\n     \"Product C\": {\"price\": \"10 USDT\", \"key\": \"KEY_FOR_PRODUCT_C\"},\n }\n+\n+# Auto verification toggle: True to enable automatic payment verification, False for manual only\n+AUTO_VERIFICATION_ENABLED = False\n+\n+# Payment verification API endpoint and API key (example placeholders)\n+PAYMENT_VERIFICATION_API_URL = \"https://api.example.com/verify_payment\"\n+PAYMENT_VERIFICATION_API_KEY = \"your_api_key_here\"\n",
+  "description": "File modification",
+  "taskId": "1749508150593",
+  "revisionNumber": 1
+}

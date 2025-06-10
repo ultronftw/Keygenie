@@ -1,0 +1,500 @@
+2025-06-10 00:28:36.207 [info] [main] Log level: Info
+2025-06-10 00:28:36.207 [info] [main] Validating found git in: "git"
+2025-06-10 00:28:36.207 [info] [main] Using git "2.34.1" from "git"
+2025-06-10 00:28:36.207 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-10 00:28:36.207 [info] > git rev-parse --show-toplevel [8ms]
+2025-06-10 00:28:36.207 [info] > git rev-parse --git-dir --git-common-dir [295ms]
+2025-06-10 00:28:36.207 [info] [Model][openRepository] Opened repository (path): /home/ubuntu
+2025-06-10 00:28:36.207 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu
+2025-06-10 00:28:36.526 [info] > git config --get commit.template [310ms]
+2025-06-10 00:28:36.537 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-10 00:28:36.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-06-10 00:28:36.546 [warning] [Git][getBranch] No such branch: master
+2025-06-10 00:28:37.104 [info] > git check-ignore -v -z --stdin [26ms]
+2025-06-10 00:28:37.105 [info] > git rev-parse --show-toplevel [516ms]
+2025-06-10 00:28:37.105 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [542ms]
+2025-06-10 00:28:37.177 [info] > git rev-parse --show-toplevel [64ms]
+2025-06-10 00:28:37.211 [info] > git status -z -uall [656ms] (cancelled)
+2025-06-10 00:28:37.211 [info] > git rev-parse --show-toplevel [24ms]
+2025-06-10 00:28:37.336 [info] > git rev-parse --show-toplevel [19ms]
+2025-06-10 00:28:37.336 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2025-06-10 00:28:37.336 [warning] [Git][getBranch] No such branch: master
+2025-06-10 00:28:37.337 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-10 00:28:38.444 [info] > git config --get commit.template [1109ms]
+2025-06-10 00:28:38.517 [info] > git rev-parse --show-toplevel [98ms]
+2025-06-10 00:28:38.526 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-10 00:28:38.540 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-10 00:28:38.540 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-06-10 00:28:38.540 [warning] [Git][getBranch] No such branch: master
+2025-06-10 00:28:38.844 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [287ms]
+2025-06-10 00:28:38.848 [info] > git rev-parse --show-toplevel [281ms]
+2025-06-10 00:28:38.898 [info] > git rev-parse --show-toplevel [39ms]
+2025-06-10 00:28:38.998 [info] > git status -z -uall [449ms] (cancelled)
+2025-06-10 00:28:39.014 [info] > git rev-parse --show-toplevel [90ms]
+2025-06-10 00:28:39.032 [info] > git rev-parse --show-toplevel [8ms]
+2025-06-10 00:28:39.042 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-10 00:28:39.043 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-10 00:28:40.089 [info] > git show --textconv :keygenie_bot.py [1040ms]
+2025-06-10 00:28:40.095 [info] > git ls-files --stage -- keygenie_bot.py [1038ms]
+2025-06-10 00:28:40.183 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [80ms]
+2025-06-10 00:28:40.184 [info] > git config --get commit.template [99ms]
+2025-06-10 00:28:40.218 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-10 00:28:40.222 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-10 00:28:40.222 [warning] [Git][getBranch] No such branch: master
+2025-06-10 00:28:40.246 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-10 00:28:40.590 [info] > git status -z -uall [358ms] (cancelled)
+2025-06-10 00:28:42.695 [info] > git show --textconv HEAD:keygenie_bot.py [13ms]
+2025-06-10 00:28:42.705 [info] > git ls-tree -l HEAD -- keygenie_bot.py [11ms]
+2025-06-10 00:28:42.705 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:28:42.714 [info] > git hash-object -t tree /dev/null [10ms]
+2025-06-10 00:28:42.714 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:28:42.726 [info] > git hash-object -t tree /dev/null [13ms]
+2025-06-10 00:28:42.726 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:30:20.599 [info] > git show --textconv :test_keygenie_bot.py [16ms]
+2025-06-10 00:30:20.600 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:30:20.601 [info] > git ls-files --stage -- test_keygenie_bot.py [2ms]
+2025-06-10 00:30:20.602 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:30:44.218 [info] > git show --textconv :config.py [14ms]
+2025-06-10 00:30:44.219 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:30:44.219 [info] > git ls-files --stage -- config.py [2ms]
+2025-06-10 00:30:44.220 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:33:25.817 [info] > git show --textconv :test_keygenie_bot.py [20ms]
+2025-06-10 00:33:25.818 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:33:25.818 [info] > git ls-files --stage -- test_keygenie_bot.py [4ms]
+2025-06-10 00:33:25.819 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:33:29.084 [info] > git show --textconv :keygenie_bot.py [49ms]
+2025-06-10 00:33:29.084 [info] > git show --textconv HEAD:keygenie_bot.py [31ms]
+2025-06-10 00:33:29.084 [info] > git ls-files --stage -- keygenie_bot.py [17ms]
+2025-06-10 00:33:29.099 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:33:29.102 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [4ms]
+2025-06-10 00:33:29.104 [info] > git ls-tree -l HEAD -- keygenie_bot.py [21ms]
+2025-06-10 00:33:29.104 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:33:29.104 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:34:52.186 [info] > git show --textconv :test_keygenie_bot.py [21ms]
+2025-06-10 00:34:52.187 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:34:52.187 [info] > git ls-files --stage -- test_keygenie_bot.py [3ms]
+2025-06-10 00:34:52.188 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:34:52.981 [info] > git show --textconv HEAD:keygenie_bot.py [14ms]
+2025-06-10 00:34:52.982 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:34:52.983 [info] > git ls-tree -l HEAD -- keygenie_bot.py [1ms]
+2025-06-10 00:34:52.983 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:34:52.984 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:35:16.965 [info] > git show --textconv :keygenie_bot.py [52ms]
+2025-06-10 00:35:16.965 [info] > git show --textconv HEAD:keygenie_bot.py [34ms]
+2025-06-10 00:35:16.965 [info] > git ls-files --stage -- keygenie_bot.py [17ms]
+2025-06-10 00:35:16.981 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:35:16.983 [info] > git ls-tree -l HEAD -- keygenie_bot.py [19ms]
+2025-06-10 00:35:16.983 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:35:16.983 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:35:16.984 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [4ms]
+2025-06-10 00:35:28.592 [info] > git show --textconv :test_keygenie_bot.py [17ms]
+2025-06-10 00:35:28.592 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:35:28.593 [info] > git ls-files --stage -- test_keygenie_bot.py [6ms]
+2025-06-10 00:35:28.594 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:35:29.318 [info] > git show --textconv HEAD:keygenie_bot.py [13ms]
+2025-06-10 00:35:29.319 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:35:29.320 [info] > git ls-tree -l HEAD -- keygenie_bot.py [1ms]
+2025-06-10 00:35:29.320 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:35:29.320 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:36:31.745 [info] > git show --textconv :keygenie_bot.py [50ms]
+2025-06-10 00:36:31.745 [info] > git show --textconv HEAD:keygenie_bot.py [34ms]
+2025-06-10 00:36:31.745 [info] > git ls-files --stage -- keygenie_bot.py [19ms]
+2025-06-10 00:36:31.759 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:36:31.762 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 00:36:31.763 [info] > git ls-tree -l HEAD -- keygenie_bot.py [22ms]
+2025-06-10 00:36:31.763 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:36:31.764 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:36:44.207 [info] > git show --textconv :test_keygenie_bot.py [16ms]
+2025-06-10 00:36:44.208 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:36:44.209 [info] > git ls-files --stage -- test_keygenie_bot.py [5ms]
+2025-06-10 00:36:44.209 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:36:44.978 [info] > git show --textconv HEAD:keygenie_bot.py [18ms]
+2025-06-10 00:36:44.978 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:36:44.980 [info] > git ls-tree -l HEAD -- keygenie_bot.py [2ms]
+2025-06-10 00:36:44.980 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:36:44.980 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:37:09.399 [info] > git show --textconv :keygenie_bot.py [43ms]
+2025-06-10 00:37:09.399 [info] > git show --textconv HEAD:keygenie_bot.py [26ms]
+2025-06-10 00:37:09.399 [info] > git ls-tree -l HEAD -- keygenie_bot.py [3ms]
+2025-06-10 00:37:09.399 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:37:09.399 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:37:09.400 [info] > git ls-files --stage -- keygenie_bot.py [17ms]
+2025-06-10 00:37:09.415 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:37:09.417 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 00:38:44.327 [info] > git show --textconv :test_keygenie_bot.py [16ms]
+2025-06-10 00:38:44.328 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:38:44.329 [info] > git ls-files --stage -- test_keygenie_bot.py [3ms]
+2025-06-10 00:38:44.329 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:40:37.910 [info] > git show --textconv :keygenie_bot.py [64ms]
+2025-06-10 00:40:37.911 [info] > git show --textconv HEAD:keygenie_bot.py [41ms]
+2025-06-10 00:40:37.911 [info] > git ls-files --stage -- keygenie_bot.py [19ms]
+2025-06-10 00:40:37.933 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:40:37.937 [info] > git ls-tree -l HEAD -- keygenie_bot.py [26ms]
+2025-06-10 00:40:37.937 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:40:37.938 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:40:37.938 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [6ms]
+2025-06-10 00:41:09.410 [info] > git show --textconv :test_keygenie_bot.py [21ms]
+2025-06-10 00:41:09.410 [info] > git ls-files --stage -- test_keygenie_bot.py [2ms]
+2025-06-10 00:41:09.411 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:41:09.411 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:42:16.642 [info] > git show --textconv :keygenie_bot.py [60ms]
+2025-06-10 00:42:16.642 [info] > git show --textconv HEAD:keygenie_bot.py [39ms]
+2025-06-10 00:42:16.642 [info] > git ls-files --stage -- keygenie_bot.py [23ms]
+2025-06-10 00:42:16.657 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:42:16.659 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 00:42:16.660 [info] > git ls-tree -l HEAD -- keygenie_bot.py [20ms]
+2025-06-10 00:42:16.660 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:42:16.660 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:43:06.451 [info] > git show --textconv :test_keygenie_bot.py [24ms]
+2025-06-10 00:43:06.451 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:43:06.452 [info] > git ls-files --stage -- test_keygenie_bot.py [3ms]
+2025-06-10 00:43:06.453 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:44:15.113 [info] > git show --textconv HEAD:keygenie_bot.py [37ms]
+2025-06-10 00:44:15.114 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:44:15.116 [info] > git ls-tree -l HEAD -- keygenie_bot.py [4ms]
+2025-06-10 00:44:15.116 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:44:15.116 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:44:34.025 [info] > git show --textconv :keygenie_bot.py [70ms]
+2025-06-10 00:44:34.025 [info] > git show --textconv HEAD:keygenie_bot.py [50ms]
+2025-06-10 00:44:34.025 [info] > git ls-files --stage -- keygenie_bot.py [27ms]
+2025-06-10 00:44:34.049 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:44:34.051 [info] > git ls-tree -l HEAD -- keygenie_bot.py [29ms]
+2025-06-10 00:44:34.051 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:44:34.052 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:44:34.052 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [4ms]
+2025-06-10 00:46:29.349 [info] > git show --textconv :test_keygenie_bot.py [24ms]
+2025-06-10 00:46:29.349 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:46:29.352 [info] > git ls-files --stage -- test_keygenie_bot.py [5ms]
+2025-06-10 00:46:29.353 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:46:29.951 [info] > git show --textconv :keygenie_bot.py [55ms]
+2025-06-10 00:46:29.951 [info] > git show --textconv HEAD:keygenie_bot.py [37ms]
+2025-06-10 00:46:29.951 [info] > git ls-files --stage -- keygenie_bot.py [19ms]
+2025-06-10 00:46:29.966 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:46:29.968 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 00:46:29.971 [info] > git ls-tree -l HEAD -- keygenie_bot.py [21ms]
+2025-06-10 00:46:29.971 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:46:29.971 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:46:30.558 [info] > git show --textconv :test_keygenie_bot.py [19ms]
+2025-06-10 00:46:30.559 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:46:30.560 [info] > git ls-files --stage -- test_keygenie_bot.py [2ms]
+2025-06-10 00:46:30.560 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:46:52.170 [info] > git show --textconv :keygenie_bot.py [49ms]
+2025-06-10 00:46:52.170 [info] > git show --textconv HEAD:keygenie_bot.py [34ms]
+2025-06-10 00:46:52.170 [info] > git ls-files --stage -- keygenie_bot.py [19ms]
+2025-06-10 00:46:52.185 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:46:52.189 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [4ms]
+2025-06-10 00:46:52.190 [info] > git ls-tree -l HEAD -- keygenie_bot.py [22ms]
+2025-06-10 00:46:52.190 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:46:52.190 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:46:53.798 [info] > git show --textconv :payment_verification_cron.py [22ms]
+2025-06-10 00:46:53.798 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:46:53.799 [info] > git ls-files --stage -- payment_verification_cron.py [2ms]
+2025-06-10 00:46:53.800 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:46:54.774 [info] > git show --textconv :keygenie_bot.py [52ms]
+2025-06-10 00:46:54.774 [info] > git show --textconv HEAD:keygenie_bot.py [33ms]
+2025-06-10 00:46:54.774 [info] > git ls-files --stage -- keygenie_bot.py [20ms]
+2025-06-10 00:46:54.786 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:46:54.788 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [2ms]
+2025-06-10 00:46:54.788 [info] > git ls-tree -l HEAD -- keygenie_bot.py [15ms]
+2025-06-10 00:46:54.788 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:46:54.788 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:47:43.586 [info] > git show --textconv :payment_verification_cron.py [20ms]
+2025-06-10 00:47:43.587 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:47:43.588 [info] > git ls-files --stage -- payment_verification_cron.py [2ms]
+2025-06-10 00:47:43.588 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:47:44.366 [info] > git show --textconv HEAD:keygenie_bot.py [20ms]
+2025-06-10 00:47:44.366 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:47:44.368 [info] > git ls-tree -l HEAD -- keygenie_bot.py [3ms]
+2025-06-10 00:47:44.368 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:47:44.368 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:47:54.238 [info] > git show --textconv :keygenie_bot.py [85ms]
+2025-06-10 00:47:54.238 [info] > git show --textconv HEAD:keygenie_bot.py [56ms]
+2025-06-10 00:47:54.238 [info] > git ls-files --stage -- keygenie_bot.py [29ms]
+2025-06-10 00:47:54.266 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:47:54.271 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [6ms]
+2025-06-10 00:47:54.271 [info] > git ls-tree -l HEAD -- keygenie_bot.py [34ms]
+2025-06-10 00:47:54.271 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:47:54.272 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:00.255 [info] > git show --textconv :payment_verification_cron.py [17ms]
+2025-06-10 00:48:00.256 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:48:00.257 [info] > git ls-files --stage -- payment_verification_cron.py [2ms]
+2025-06-10 00:48:00.258 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:48:01.045 [info] > git show --textconv HEAD:keygenie_bot.py [17ms]
+2025-06-10 00:48:01.046 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:01.046 [info] > git ls-tree -l HEAD -- keygenie_bot.py [1ms]
+2025-06-10 00:48:01.046 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:48:01.047 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:13.849 [info] > git show --textconv :keygenie_bot.py [40ms]
+2025-06-10 00:48:13.849 [info] > git show --textconv HEAD:keygenie_bot.py [24ms]
+2025-06-10 00:48:13.850 [info] > git ls-files --stage -- keygenie_bot.py [11ms]
+2025-06-10 00:48:13.864 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:13.865 [info] > git ls-tree -l HEAD -- keygenie_bot.py [17ms]
+2025-06-10 00:48:13.865 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:48:13.865 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:13.866 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 00:48:24.266 [info] > git show --textconv :payment_verification_cron.py [15ms]
+2025-06-10 00:48:24.267 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:48:24.268 [info] > git ls-files --stage -- payment_verification_cron.py [2ms]
+2025-06-10 00:48:24.269 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:48:25.117 [info] > git show --textconv HEAD:keygenie_bot.py [66ms]
+2025-06-10 00:48:25.119 [info] > git ls-tree -l HEAD -- keygenie_bot.py [55ms]
+2025-06-10 00:48:25.119 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:48:25.119 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:25.120 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:31.069 [info] > git show --textconv :keygenie_bot.py [38ms]
+2025-06-10 00:48:31.069 [info] > git show --textconv HEAD:keygenie_bot.py [23ms]
+2025-06-10 00:48:31.069 [info] > git ls-files --stage -- keygenie_bot.py [12ms]
+2025-06-10 00:48:31.080 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:31.086 [info] > git ls-tree -l HEAD -- keygenie_bot.py [19ms]
+2025-06-10 00:48:31.086 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:48:31.086 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:48:31.087 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [7ms]
+2025-06-10 00:49:49.722 [info] > git show --textconv :config.py [18ms]
+2025-06-10 00:49:49.722 [info] > git ls-files --stage -- config.py [5ms]
+2025-06-10 00:49:49.723 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:49:49.724 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:49:50.207 [info] > git show --textconv :keygenie_bot.py [43ms]
+2025-06-10 00:49:50.207 [info] > git show --textconv HEAD:keygenie_bot.py [27ms]
+2025-06-10 00:49:50.207 [info] > git ls-files --stage -- keygenie_bot.py [14ms]
+2025-06-10 00:49:50.218 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:49:50.220 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [2ms]
+2025-06-10 00:49:50.221 [info] > git ls-tree -l HEAD -- keygenie_bot.py [15ms]
+2025-06-10 00:49:50.221 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:49:50.221 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:49:51.353 [info] > git show --textconv :payment_verification_cron.py [16ms]
+2025-06-10 00:49:51.354 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:49:51.355 [info] > git ls-files --stage -- payment_verification_cron.py [3ms]
+2025-06-10 00:49:51.355 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/payment_verification_cron.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:49:52.224 [info] > git show --textconv :payment_verification_cron.log [17ms]
+2025-06-10 00:49:52.224 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/payment_verification_cron.log.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.log%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:49:52.225 [info] > git ls-files --stage -- payment_verification_cron.log [2ms]
+2025-06-10 00:49:52.226 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/payment_verification_cron.log.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fpayment_verification_cron.log%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:49:55.868 [info] > git show --textconv :test_keygenie_bot.py [55ms]
+2025-06-10 00:49:55.868 [info] > git ls-files --stage -- test_keygenie_bot.py [40ms]
+2025-06-10 00:49:55.868 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:49:55.869 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/test_keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Ftest_keygenie_bot.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:51:03.842 [info] > git show --textconv :keygenie_bot.py [45ms]
+2025-06-10 00:51:03.842 [info] > git show --textconv HEAD:keygenie_bot.py [26ms]
+2025-06-10 00:51:03.842 [info] > git ls-files --stage -- keygenie_bot.py [12ms]
+2025-06-10 00:51:03.853 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:51:03.858 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [5ms]
+2025-06-10 00:51:03.859 [info] > git ls-tree -l HEAD -- keygenie_bot.py [19ms]
+2025-06-10 00:51:03.859 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:51:03.859 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:52:40.414 [info] > git show --textconv :config.py [15ms]
+2025-06-10 00:52:40.414 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:52:40.415 [info] > git ls-files --stage -- config.py [2ms]
+2025-06-10 00:52:40.416 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:53:16.175 [info] > git show --textconv :keygenie_bot.py [46ms]
+2025-06-10 00:53:16.175 [info] > git show --textconv HEAD:keygenie_bot.py [30ms]
+2025-06-10 00:53:16.175 [info] > git ls-files --stage -- keygenie_bot.py [15ms]
+2025-06-10 00:53:16.187 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:53:16.190 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [4ms]
+2025-06-10 00:53:16.191 [info] > git ls-tree -l HEAD -- keygenie_bot.py [18ms]
+2025-06-10 00:53:16.191 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:53:16.191 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:53:17.397 [info] > git show --textconv :config.py [21ms]
+2025-06-10 00:53:17.398 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:53:17.399 [info] > git ls-files --stage -- config.py [3ms]
+2025-06-10 00:53:17.399 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:54:44.047 [info] > git show --textconv :keygenie_bot.py [45ms]
+2025-06-10 00:54:44.047 [info] > git show --textconv HEAD:keygenie_bot.py [29ms]
+2025-06-10 00:54:44.048 [info] > git ls-files --stage -- keygenie_bot.py [15ms]
+2025-06-10 00:54:44.061 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:54:44.067 [info] > git ls-tree -l HEAD -- keygenie_bot.py [24ms]
+2025-06-10 00:54:44.067 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:54:44.068 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:54:44.069 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [7ms]
+2025-06-10 00:55:04.490 [info] > git show --textconv :config.py [17ms]
+2025-06-10 00:55:04.491 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:55:04.491 [info] > git ls-files --stage -- config.py [2ms]
+2025-06-10 00:55:04.492 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:55:29.906 [info] > git show --textconv HEAD:keygenie_bot.py [15ms]
+2025-06-10 00:55:29.906 [info] > git ls-tree -l HEAD -- keygenie_bot.py [2ms]
+2025-06-10 00:55:29.906 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:55:29.907 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:55:29.908 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:55:35.107 [info] > git show --textconv :keygenie_bot.py [51ms]
+2025-06-10 00:55:35.107 [info] > git show --textconv HEAD:keygenie_bot.py [35ms]
+2025-06-10 00:55:35.107 [info] > git ls-files --stage -- keygenie_bot.py [16ms]
+2025-06-10 00:55:35.118 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:55:35.120 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [2ms]
+2025-06-10 00:55:35.120 [info] > git ls-tree -l HEAD -- keygenie_bot.py [15ms]
+2025-06-10 00:55:35.121 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:55:35.121 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:59:50.294 [info] > git show --textconv :config.py [14ms]
+2025-06-10 00:59:50.294 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:59:50.295 [info] > git ls-files --stage -- config.py [2ms]
+2025-06-10 00:59:50.295 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 00:59:51.159 [info] > git show --textconv HEAD:keygenie_bot.py [18ms]
+2025-06-10 00:59:51.159 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:59:51.160 [info] > git ls-tree -l HEAD -- keygenie_bot.py [3ms]
+2025-06-10 00:59:51.160 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:59:51.160 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:59:55.078 [info] > git show --textconv :keygenie_bot.py [41ms]
+2025-06-10 00:59:55.078 [info] > git show --textconv HEAD:keygenie_bot.py [26ms]
+2025-06-10 00:59:55.078 [info] > git ls-files --stage -- keygenie_bot.py [16ms]
+2025-06-10 00:59:55.093 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:59:55.094 [info] > git ls-tree -l HEAD -- keygenie_bot.py [18ms]
+2025-06-10 00:59:55.095 [info] fatal: Not a valid object name HEAD
+2025-06-10 00:59:55.095 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 00:59:55.096 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [4ms]
+2025-06-10 01:00:06.474 [info] > git show --textconv :config.py [15ms]
+2025-06-10 01:00:06.474 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:00:06.475 [info] > git ls-files --stage -- config.py [2ms]
+2025-06-10 01:00:06.475 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:00:07.248 [info] > git show --textconv HEAD:keygenie_bot.py [15ms]
+2025-06-10 01:00:07.248 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:00:07.251 [info] > git ls-tree -l HEAD -- keygenie_bot.py [4ms]
+2025-06-10 01:00:07.251 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:00:07.252 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:00:26.015 [info] > git show --textconv :keygenie_bot.py [47ms]
+2025-06-10 01:00:26.015 [info] > git show --textconv HEAD:keygenie_bot.py [31ms]
+2025-06-10 01:00:26.015 [info] > git ls-files --stage -- keygenie_bot.py [16ms]
+2025-06-10 01:00:26.029 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:00:26.031 [info] > git ls-tree -l HEAD -- keygenie_bot.py [18ms]
+2025-06-10 01:00:26.031 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:00:26.031 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:00:26.032 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 01:00:38.310 [info] > git show --textconv :config.py [16ms]
+2025-06-10 01:00:38.311 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:00:38.312 [info] > git ls-files --stage -- config.py [3ms]
+2025-06-10 01:00:38.313 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:00:39.064 [info] > git show --textconv HEAD:keygenie_bot.py [16ms]
+2025-06-10 01:00:39.064 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:00:39.065 [info] > git ls-tree -l HEAD -- keygenie_bot.py [2ms]
+2025-06-10 01:00:39.066 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:00:39.066 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:01:51.195 [info] > git show --textconv :keygenie_bot.py [44ms]
+2025-06-10 01:01:51.195 [info] > git show --textconv HEAD:keygenie_bot.py [30ms]
+2025-06-10 01:01:51.195 [info] > git ls-files --stage -- keygenie_bot.py [15ms]
+2025-06-10 01:01:51.209 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:01:51.210 [info] > git ls-tree -l HEAD -- keygenie_bot.py [17ms]
+2025-06-10 01:01:51.210 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:01:51.211 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:01:51.211 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 01:02:05.532 [info] > git show --textconv :config.py [24ms]
+2025-06-10 01:02:05.533 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:02:05.534 [info] > git ls-files --stage -- config.py [3ms]
+2025-06-10 01:02:05.535 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:02:06.292 [info] > git show --textconv HEAD:keygenie_bot.py [22ms]
+2025-06-10 01:02:06.293 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:06.294 [info] > git ls-tree -l HEAD -- keygenie_bot.py [5ms]
+2025-06-10 01:02:06.294 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:02:06.295 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:12.796 [info] > git show --textconv :keygenie_bot.py [40ms]
+2025-06-10 01:02:12.796 [info] > git show --textconv HEAD:keygenie_bot.py [26ms]
+2025-06-10 01:02:12.796 [info] > git ls-files --stage -- keygenie_bot.py [16ms]
+2025-06-10 01:02:12.810 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:12.812 [info] > git ls-tree -l HEAD -- keygenie_bot.py [18ms]
+2025-06-10 01:02:12.812 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:02:12.812 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:12.813 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 01:02:25.080 [info] > git show --textconv :config.py [16ms]
+2025-06-10 01:02:25.081 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:02:25.082 [info] > git ls-files --stage -- config.py [2ms]
+2025-06-10 01:02:25.082 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:02:25.889 [info] > git show --textconv HEAD:keygenie_bot.py [16ms]
+2025-06-10 01:02:25.890 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:25.892 [info] > git ls-tree -l HEAD -- keygenie_bot.py [2ms]
+2025-06-10 01:02:25.892 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:02:25.892 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:37.447 [info] > git show --textconv :keygenie_bot.py [44ms]
+2025-06-10 01:02:37.447 [info] > git show --textconv HEAD:keygenie_bot.py [29ms]
+2025-06-10 01:02:37.447 [info] > git ls-files --stage -- keygenie_bot.py [16ms]
+2025-06-10 01:02:37.462 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:37.463 [info] > git ls-tree -l HEAD -- keygenie_bot.py [18ms]
+2025-06-10 01:02:37.464 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:02:37.464 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:37.464 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 01:02:50.226 [info] > git show --textconv :config.py [12ms]
+2025-06-10 01:02:50.227 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:02:50.228 [info] > git ls-files --stage -- config.py [2ms]
+2025-06-10 01:02:50.228 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:02:51.023 [info] > git show --textconv HEAD:keygenie_bot.py [22ms]
+2025-06-10 01:02:51.024 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:02:51.025 [info] > git ls-tree -l HEAD -- keygenie_bot.py [9ms]
+2025-06-10 01:02:51.025 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:02:51.025 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:03:24.470 [info] > git show --textconv :keygenie_bot.py [46ms]
+2025-06-10 01:03:24.470 [info] > git show --textconv HEAD:keygenie_bot.py [30ms]
+2025-06-10 01:03:24.470 [info] > git ls-files --stage -- keygenie_bot.py [16ms]
+2025-06-10 01:03:24.481 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:03:24.483 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [2ms]
+2025-06-10 01:03:24.483 [info] > git ls-tree -l HEAD -- keygenie_bot.py [15ms]
+2025-06-10 01:03:24.483 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:03:24.484 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:03:40.764 [info] > git show --textconv :config.py [17ms]
+2025-06-10 01:03:40.765 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:03:40.766 [info] > git ls-files --stage -- config.py [4ms]
+2025-06-10 01:03:40.766 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:03:41.596 [info] > git show --textconv HEAD:keygenie_bot.py [21ms]
+2025-06-10 01:03:41.596 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:03:41.597 [info] > git ls-tree -l HEAD -- keygenie_bot.py [4ms]
+2025-06-10 01:03:41.597 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:03:41.598 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:03:46.339 [info] > git show --textconv :keygenie_bot.py [38ms]
+2025-06-10 01:03:46.339 [info] > git show --textconv HEAD:keygenie_bot.py [23ms]
+2025-06-10 01:03:46.339 [info] > git ls-tree -l HEAD -- keygenie_bot.py [3ms]
+2025-06-10 01:03:46.339 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:03:46.339 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:03:46.340 [info] > git ls-files --stage -- keygenie_bot.py [14ms]
+2025-06-10 01:03:46.350 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:03:46.352 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [2ms]
+2025-06-10 01:04:10.060 [info] > git show --textconv :config.py [19ms]
+2025-06-10 01:04:10.061 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:04:10.061 [info] > git ls-files --stage -- config.py [4ms]
+2025-06-10 01:04:10.062 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:04:10.882 [info] > git show --textconv HEAD:keygenie_bot.py [18ms]
+2025-06-10 01:04:10.882 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:04:10.883 [info] > git ls-tree -l HEAD -- keygenie_bot.py [3ms]
+2025-06-10 01:04:10.883 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:04:10.883 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:04:24.628 [info] > git show --textconv :keygenie_bot.py [66ms]
+2025-06-10 01:04:24.628 [info] > git show --textconv HEAD:keygenie_bot.py [45ms]
+2025-06-10 01:04:24.628 [info] > git ls-tree -l HEAD -- keygenie_bot.py [3ms]
+2025-06-10 01:04:24.628 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:04:24.629 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:04:24.630 [info] > git ls-files --stage -- keygenie_bot.py [25ms]
+2025-06-10 01:04:24.650 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:04:24.652 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [4ms]
+2025-06-10 01:04:37.535 [info] > git show --textconv :config.py [13ms]
+2025-06-10 01:04:37.536 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:04:37.536 [info] > git ls-files --stage -- config.py [2ms]
+2025-06-10 01:04:37.537 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/config.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fconfig.py%22%2C%22ref%22%3A%22%22%7D
+2025-06-10 01:04:38.398 [info] > git show --textconv HEAD:keygenie_bot.py [19ms]
+2025-06-10 01:04:38.398 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:04:38.400 [info] > git ls-tree -l HEAD -- keygenie_bot.py [4ms]
+2025-06-10 01:04:38.400 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:04:38.400 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:04:44.651 [info] > git show --textconv :keygenie_bot.py [46ms]
+2025-06-10 01:04:44.651 [info] > git show --textconv HEAD:keygenie_bot.py [30ms]
+2025-06-10 01:04:44.651 [info] > git ls-files --stage -- keygenie_bot.py [16ms]
+2025-06-10 01:04:44.665 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:04:44.668 [info] > git ls-tree -l HEAD -- keygenie_bot.py [19ms]
+2025-06-10 01:04:44.669 [info] fatal: Not a valid object name HEAD
+2025-06-10 01:04:44.669 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/keygenie_bot.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fkeygenie_bot.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-10 01:04:44.670 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [6ms]
+2025-06-10 01:11:14.725 [info] > git ls-files --stage -- keygenie_bot.py [3ms]
+2025-06-10 01:11:14.742 [info] > git cat-file -s ad0e78dc4363972b2fc408474305494f546133bd [3ms]
+2025-06-10 01:11:15.071 [info] > git show --textconv :keygenie_bot.py [3ms]
+2025-06-10 01:11:55.427 [info] > git ls-files --stage -- keygenie_bot.py [20ms]
+2025-06-10 01:11:55.441 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [2ms]
+2025-06-10 01:11:55.767 [info] > git show --textconv :keygenie_bot.py [19ms]
+2025-06-10 01:16:51.538 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [34ms]
+2025-06-10 01:16:51.538 [info] fatal: bad revision 'refs/heads/master'
+2025-06-10 01:16:51.538 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-06-10 01:17:06.516 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2025-06-10 01:17:06.516 [info] fatal: bad revision 'refs/heads/master'
+2025-06-10 01:17:06.517 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2025-06-10 01:17:07.054 [info] > git check-ignore -v -z --stdin [20ms]

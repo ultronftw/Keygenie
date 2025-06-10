@@ -1,0 +1,52 @@
+2025-06-10 01:34:19.196 [info] [main] Log level: Info
+2025-06-10 01:34:19.196 [info] [main] Validating found git in: "git"
+2025-06-10 01:34:19.196 [info] [main] Using git "2.34.1" from "git"
+2025-06-10 01:34:19.196 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-10 01:34:19.196 [info] > git rev-parse --show-toplevel [1886ms]
+2025-06-10 01:34:19.196 [info] > git rev-parse --git-dir --git-common-dir [245ms]
+2025-06-10 01:34:19.196 [info] [Model][openRepository] Opened repository (path): /home/ubuntu
+2025-06-10 01:34:19.196 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu
+2025-06-10 01:34:19.196 [info] > git config --get commit.template [338ms]
+2025-06-10 01:34:19.206 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-10 01:34:19.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [51ms]
+2025-06-10 01:34:19.256 [warning] [Git][getBranch] No such branch: master
+2025-06-10 01:34:19.286 [info] > git rev-parse --show-toplevel [42ms]
+2025-06-10 01:34:19.688 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [415ms]
+2025-06-10 01:34:19.781 [info] > git check-ignore -v -z --stdin [81ms]
+2025-06-10 01:34:19.790 [info] > git rev-parse --show-toplevel [103ms]
+2025-06-10 01:34:19.814 [info] > git rev-parse --show-toplevel [16ms]
+2025-06-10 01:34:19.830 [info] > git status -z -uall [566ms] (cancelled)
+2025-06-10 01:34:19.831 [info] > git rev-parse --show-toplevel [7ms]
+2025-06-10 01:34:19.957 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [22ms]
+2025-06-10 01:34:19.957 [warning] [Git][getBranch] No such branch: master
+2025-06-10 01:34:19.958 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-10 01:34:19.961 [info] > git config --get commit.template [7ms]
+2025-06-10 01:34:19.961 [info] > git rev-parse --show-toplevel [14ms]
+2025-06-10 01:34:21.077 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-10 01:34:21.081 [info] > git rev-parse --show-toplevel [70ms]
+2025-06-10 01:34:21.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-06-10 01:34:21.092 [warning] [Git][getBranch] No such branch: master
+2025-06-10 01:34:21.110 [info] > git rev-parse --show-toplevel [20ms]
+2025-06-10 01:34:21.120 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-06-10 01:34:21.399 [info] > git rev-parse --show-toplevel [271ms]
+2025-06-10 01:34:21.485 [info] > git status -z -uall [384ms] (cancelled)
+2025-06-10 01:34:21.485 [info] > git rev-parse --show-toplevel [75ms]
+2025-06-10 01:34:21.501 [info] > git rev-parse --show-toplevel [7ms]
+2025-06-10 01:34:22.798 [info] > git rev-parse --show-toplevel [1288ms]
+2025-06-10 01:34:22.909 [info] > git rev-parse --show-toplevel [20ms]
+2025-06-10 01:34:22.910 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-10 01:34:22.962 [info] > git show --textconv :keygenie_bot.py [40ms]
+2025-06-10 01:34:22.962 [info] > git ls-files --stage -- keygenie_bot.py [30ms]
+2025-06-10 01:34:22.975 [info] > git config --get commit.template [16ms]
+2025-06-10 01:34:22.976 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [3ms]
+2025-06-10 01:34:22.984 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-10 01:34:22.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-10 01:34:22.987 [warning] [Git][getBranch] No such branch: master
+2025-06-10 01:34:23.016 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-06-10 01:34:23.276 [info] > git status -z -uall [279ms] (cancelled)
+2025-06-10 01:34:49.916 [info] > git show --textconv :test_keygenie_bot.py [19ms]
+2025-06-10 01:34:49.932 [info] > git ls-files --stage -- test_keygenie_bot.py [18ms]
+2025-06-10 01:34:49.945 [info] > git cat-file -s 33d1760beb811b423bb7dd3c6c5a3d4b4837d899 [2ms]
+2025-06-10 01:34:55.411 [info] > git show --textconv :keygenie_bot.py [17ms]
+2025-06-10 01:34:55.427 [info] > git ls-files --stage -- keygenie_bot.py [17ms]
+2025-06-10 01:34:55.447 [info] > git cat-file -s a5be53d5f2dd6a3c10fad61eeab7d3944124b272 [3ms]

@@ -1,0 +1,191 @@
+2025-06-09 22:27:42.472 [info] 
+
+
+
+
+2025-06-09 22:27:42.480 [info] Installing extensions...
+2025-06-09 22:27:42.482 [info] Extension host agent started.
+2025-06-09 22:27:42.506 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-06-09 22:27:42.550 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 22:27:42.581 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-06-09 22:27:42.598 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 22:27:43.232 [info] [<unknown>][4fe83580][ManagementConnection] New connection established.
+2025-06-09 22:27:43.235 [info] [<unknown>][e057ee08][ExtensionHostConnection] New connection established.
+2025-06-09 22:27:43.422 [info] [<unknown>][e057ee08][ExtensionHostConnection] <5926> Launched Extension Host Process.
+2025-06-09 22:27:44.138 [info] Installing extension 'blackboxapp.blackboxagent'...
+2025-06-09 22:27:44.140 [info] Getting Manifest... blackboxapp.blackboxagent
+2025-06-09 22:27:44.146 [info] Installing extension: blackboxapp.blackboxagent {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"}}
+2025-06-09 22:27:46.231 [info] Extension signature verification result for blackboxapp.blackboxagent: Success. Internal Code: 0. Executed: true. Duration: 1702ms.
+2025-06-09 22:27:46.428 [info] Getting Manifest... github.copilot-chat
+2025-06-09 22:27:46.483 [info] Installing extension: github.copilot-chat {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"linux-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"}}
+2025-06-09 22:27:46.483 [info] Installing the extension without checking dependencies and pack github.copilot-chat
+2025-06-09 22:27:46.697 [info] Getting Manifest... github.copilot
+2025-06-09 22:27:46.706 [info] Installing extension: github.copilot {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"linux-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"}}
+2025-06-09 22:27:46.707 [info] Installing the extension without checking dependencies and pack github.copilot
+2025-06-09 22:27:47.941 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1299ms.
+2025-06-09 22:27:47.972 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 1072ms.
+2025-06-09 22:27:48.096 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95: blackboxapp.blackboxagent
+2025-06-09 22:27:48.167 [info] Renamed to /home/ubuntu/.vscode-server/extensions/blackboxapp.blackboxagent-3.2.95
+2025-06-09 22:27:48.179 [info] Extension installed successfully: blackboxapp.blackboxagent file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-06-09 22:27:48.179 [info] Extension 'blackboxapp.blackboxagent' v3.2.95 was successfully installed.
+2025-06-09 22:27:48.286 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.3: github.copilot-chat
+2025-06-09 22:27:48.298 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.3
+2025-06-09 22:27:48.316 [info] Extension installed successfully: github.copilot-chat file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-06-09 22:27:48.604 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-1.331.0: github.copilot
+2025-06-09 22:27:48.614 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-1.331.0
+2025-06-09 22:27:48.627 [info] Extension installed successfully: github.copilot file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-06-09 22:28:28.468 [info] Getting Manifest... blackboxapp.blackbox
+2025-06-09 22:28:28.532 [info] Installing extension: blackboxapp.blackbox {"isMachineScoped":false,"installGivenVersion":false,"context":{"extensionInstallSource":"command","clientTargetPlatform":"linux-x64"},"donotVerifySignature":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"}}
+2025-06-09 22:28:30.165 [info] Extension signature verification result for blackboxapp.blackbox: Success. Internal Code: 0. Executed: true. Duration: 1141ms.
+2025-06-09 22:28:34.354 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/blackboxapp.blackbox-2.8.43: blackboxapp.blackbox
+2025-06-09 22:28:34.831 [info] Renamed to /home/ubuntu/.vscode-server/extensions/blackboxapp.blackbox-2.8.43
+2025-06-09 22:28:34.851 [info] Extension installed successfully: blackboxapp.blackbox file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-06-09 22:28:36.310 [info] [<unknown>][e057ee08][ExtensionHostConnection] <5926><stderr> warning: Not a git repository. Use --no-index to compare two paths outside a working tree
+usage: git diff --no-index [<options>] <path> <path>
+
+Diff output format options
+    -p, --patch           generate patch
+    -s, --no-patch        suppress diff output
+    -u                    generate patch
+    -U, --unified[=<n>]   generate diffs with <n> lines context
+    -W, --function-context
+                          generate diffs with <n> lines context
+    --raw                 generate the diff in raw format
+    --patch-with-raw      synonym for '-p --raw'
+    --patch-with-stat     synonym for '-p --stat'
+    --numstat             machine friendly --stat
+    --shortstat           output only the last line of --stat
+    -X, --dirstat[=<param1,param2>...]
+                          output the distribution of relative amount of changes for each sub-directory
+    --cumulative          synonym for --dirstat=cumulative
+    --dirstat-by-file[=<param1,param2>...]
+                          synonym for --dirstat=files,param1,param2...
+    --check               warn if changes introduce conflict markers or whitespace errors
+    --summary             condensed summary such as creations, renames and mode changes
+    --name-only           show only names of changed files
+    --name-status         show only names and status of changed files
+    --stat[=<width>[,<name-width>[,<count>]]]
+                          generate diffstat
+    --stat-width <width>  generate diffstat with a given width
+    --stat-name-width <width>
+                          generate diffstat with a given name width
+    --stat-graph-width <width>
+                          generate diffstat with a given graph width
+    --stat-count <count>  generate diffstat with limited lines
+    --compact-summary     generate compact summary in diffstat
+    --binary              output a binary diff that can be applied
+    --full-index          show full pre- and post-image object names on the "index" lines
+    --color[=<when>]      show colored diff
+    --ws-error-highlight <kind>
+                          highlight whitespace errors in the 'context', 'old' or 'new' lines in the diff
+    -z                    do not munge pathnames and use NULs as output field terminators in --raw or --numstat
+    --abbrev[=<n>]        use <n> digits to display object names
+    --src-prefix <prefix>
+                          show the given source prefix instead of "a/"
+    --dst-prefix <prefix>
+                          show the given destination prefix instead of "b/"
+    --line-prefix <prefix>
+                          prepend an additional prefix to every line of output
+    --no-prefix           do not show any source or destination prefix
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    --output-indicator-new <char>
+                          specify the character to indicate a new line instead of '+'
+    --output-indicator-old <char>
+                          specify the character to indicate an old line instead of '-'
+    --output-indicator-context <char>
+                          specify the character to indicate a context instead of ' '
+
+Diff rename options
+    -B, --break-rewrites[=<n>[/<m>]]
+                          break complete rewrite changes into pairs of delete and create
+    -M, --find-renames[=<n>]
+                          detect renames
+    -D, --irreversible-delete
+                          omit the preimage for deletes
+    -C, --find-copies[=<n>]
+                          detect copies
+    --find-copies-harder  use unmodified files as source to find copies
+    --no-renames          disable rename detection
+    --rename-empty        use empty blobs as rename source
+    --follow              continue listing the history of a file beyond renames
+    -l <n>                prevent rename/copy detection if the number of rename/copy targets exceeds given limit
+
+Diff algorithm options
+    --minimal             produce the smallest possible diff
+    -w, --ignore-all-space
+                          ignore whitespace when comparing lines
+    -b, --ignore-space-change
+                          ignore changes in amount of whitespace
+    --ignore-space-at-eol
+                          ignore changes in whitespace at EOL
+    --ignore-cr-at-eol    ignore carrier-return at the end of line
+    --ignore-blank-lines  ignore changes whose lines are all blank
+    -I, --ignore-matching-lines <regex>
+                          ignore changes whose all lines match <regex>
+    --indent-heuristic    heuristic to shift diff hunk boundaries for easy reading
+    --patience            generate diff using the "patience diff" algorithm
+    --histogram           generate diff using the "histogram diff" algorithm
+    --diff-algorithm <algorithm>
+                          choose a diff algorithm
+    --anchored <text>     generate diff using the "anchored diff" algorithm
+    --word-diff[=<mode>]  show word diff, using <mode> to delimit changed words
+    --word-diff-regex <regex>
+                          use <regex> to decide what a word is
+    --color-words[=<regex>]
+                          equivalent to --word-diff=color --word-diff-regex=<regex>
+    --color-moved[=<mode>]
+                          moved lines of code are colored differently
+    --color-moved-ws <mode>
+                          how white spaces are ignored in --color-moved
+
+Other diff options
+    --relative[=<prefix>]
+                          when run from subdir, exclude changes outside and show relative paths
+    -a, --text            treat all files as text
+    -R                    swap two inputs, reverse the diff
+    --exit-code           exit with 1 if there were differences, 0 otherwise
+    --quiet               disable all output of the program
+    --ext-diff            allow an external diff helper to be executed
+    --textconv            run external text conversion filters when comparing binary files
+    --ignore-submodules[=<when>]
+                          ignore changes to submodules in the diff generation
+    --submodule[=<format>]
+                          specify how differences in submodules are shown
+    --ita-invisible-in-index
+                          hide 'git add -N' entries from the index
+    --ita-visible-in-index
+                          treat 'git add -N' entries as real in the index
+    -S <string>           look for differences that change the number of occurrences of the specified string
+    -G <regex>            look for differences that change the number of occurrences of the specified regex
+    --pickaxe-all         show all changes in the changeset with -S or -G
+    --pickaxe-regex       treat <string> in -S as extended POSIX regular expression
+    -O <file>             control the order in which files appear in the output
+    --rotate-to <path>    show the change in the specified path first
+    --skip-to <path>      skip the output to the specified path
+    --find-object <object-id>
+                          look for differences that change the number of occurrences of the specified object
+    --diff-filter [(A|C|D|M|R|T|U|X|B)...[*]]
+                          select files by diff type
+    --output <file>       Output to a specific file
+
+
+2025-06-09 22:29:34.980 [info] Getting Manifest... ms-python.python
+2025-06-09 22:29:35.024 [info] Installing extension: ms-python.python {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"}}
+2025-06-09 22:29:35.239 [info] Getting Manifest... ms-python.vscode-pylance
+2025-06-09 22:29:35.338 [info] Getting Manifest... ms-python.debugpy
+2025-06-09 22:29:35.384 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-06-09 22:29:35.384 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-02T13:30:54.273Z"},"pinned":false,"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-06-09 22:29:36.820 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 1142ms.
+2025-06-09 22:29:36.862 [info] Extension signature verification result for ms-python.debugpy: Success. Internal Code: 0. Executed: true. Duration: 1156ms.
+2025-06-09 22:29:37.360 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64: ms-python.debugpy
+2025-06-09 22:29:37.386 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64
+2025-06-09 22:29:37.724 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Internal Code: 0. Executed: true. Duration: 1456ms.
+2025-06-09 22:29:38.021 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64: ms-python.python
+2025-06-09 22:29:38.112 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64
+2025-06-09 22:29:40.737 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2025.5.1: ms-python.vscode-pylance
+2025-06-09 22:29:41.030 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2025.5.1
+2025-06-09 22:29:41.065 [info] Extension installed successfully: ms-python.debugpy file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-06-09 22:29:41.065 [info] Extension installed successfully: ms-python.python file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-06-09 22:29:41.065 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-06-09 22:32:42.483 [info] New EH opened, aborting shutdown

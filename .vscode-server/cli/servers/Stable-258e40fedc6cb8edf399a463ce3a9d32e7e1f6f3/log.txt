@@ -1,0 +1,23 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-993844a1-4362-437c-af3e-07459cc2212f
+Extension host agent listening on /tmp/code-993844a1-4362-437c-af3e-07459cc2212f
+
+[01:34:09] 
+
+
+
+
+[01:34:10] Installing extensions...
+[01:34:10] Extension host agent started.
+[01:34:10] ComputeTargetPlatform: linux-x64
+[01:34:10] Extension 'blackboxapp.blackboxagent' v3.2.95 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'blackboxapp.blackboxagent@1.2.3'.
+[01:34:10] [<unknown>][b20ee211][ExtensionHostConnection] New connection established.
+[01:34:10] [<unknown>][d9578cd9][ManagementConnection] New connection established.
+[01:34:10] [<unknown>][b20ee211][ExtensionHostConnection] <2776> Launched Extension Host Process.
+[01:34:13] ComputeTargetPlatform: linux-x64

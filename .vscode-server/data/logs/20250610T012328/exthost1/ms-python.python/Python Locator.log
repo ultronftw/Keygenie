@@ -1,0 +1,66 @@
+2025-06-10 01:23:37.351 [info] Starting Python Locator /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python-env-tools/bin/pet server
+2025-06-10 01:23:37.351 [info] Discovered env: /usr/bin/python
+2025-06-10 01:23:37.351 [info] Discovered env: /bin/python
+2025-06-10 01:23:37.351 [info] Discovered manager: (Conda) /opt/miniconda/bin/conda
+2025-06-10 01:23:37.351 [info] Discovered env: /opt/miniconda/bin/python
+2025-06-10 01:23:37.351 [info] Locator Conda took 124.611264ms
+2025-06-10 01:23:37.351 [info] Locator Homebrew took 156.303µs
+2025-06-10 01:23:37.351 [info] Locator LinuxGlobal took 100.196152ms
+2025-06-10 01:23:37.351 [info] Locator PipEnv took 206.062µs
+2025-06-10 01:23:37.351 [info] Locator Pixi took 96.566µs
+2025-06-10 01:23:37.351 [info] Locator Poetry took 2.272208ms
+2025-06-10 01:23:37.351 [info] Locator PyEnv took 3.848918ms
+2025-06-10 01:23:37.351 [info] Locator Venv took 71.761µs
+2025-06-10 01:23:37.351 [info] Locator VirtualEnv took 82.267µs
+2025-06-10 01:23:37.351 [info] Locator VirtualEnvWrapper took 148.421µs
+2025-06-10 01:23:37.351 [info] Locator GlobalVirtualEnvs took 983.887µs
+2025-06-10 01:23:37.351 [info] Locator Locators took 126.117354ms
+2025-06-10 01:23:37.352 [info] Locator Path took 141.137714ms
+2025-06-10 01:23:37.352 [info] Locator Workspaces took 4.85µs
+2025-06-10 01:23:37.352 [info] Refresh completed in 141ms
+2025-06-10 01:23:40.338 [info] Discovered manager: (Conda) /opt/miniconda/bin/conda
+2025-06-10 01:23:41.626 [info] Discovered env: /opt/miniconda/bin/python
+2025-06-10 01:23:41.800 [info] Discovered env: /bin/python
+2025-06-10 01:23:41.802 [info] Resolved Python Environment /bin/python
+2025-06-10 01:23:41.804 [info] Discovered env: /usr/bin/python
+2025-06-10 01:23:41.807 [info] Locator Conda took 127.736622ms
+2025-06-10 01:23:41.807 [info] Locator Homebrew took 739.771µs
+2025-06-10 01:23:41.807 [info] Locator LinuxGlobal took 131.668441ms
+2025-06-10 01:23:41.808 [info] Locator PipEnv took 294.786µs
+2025-06-10 01:23:41.808 [info] Locator Pixi took 112.138µs
+2025-06-10 01:23:41.808 [info] Locator Poetry took 717.833µs
+2025-06-10 01:23:41.808 [info] Locator PyEnv took 526.117µs
+2025-06-10 01:23:41.808 [info] Locator Venv took 434.243µs
+2025-06-10 01:23:41.808 [info] Locator VirtualEnv took 138.878µs
+2025-06-10 01:23:41.809 [info] Locator VirtualEnvWrapper took 70.853µs
+2025-06-10 01:23:41.809 [info] Locator GlobalVirtualEnvs took 693.288µs
+2025-06-10 01:23:41.809 [info] Locator Locators took 138.384233ms
+2025-06-10 01:23:41.809 [info] Locator Path took 161.117876ms
+2025-06-10 01:23:41.809 [info] Locator Workspaces took 13.577689ms
+2025-06-10 01:23:41.810 [info] Refresh completed in 161ms
+2025-06-10 01:23:41.815 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:24:27.324 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:30:52.117 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:31:01.107 [info] Discovered env: /bin/python
+2025-06-10 01:31:01.108 [info] Discovered manager: (Conda) /opt/miniconda/bin/conda
+2025-06-10 01:31:01.108 [info] Discovered env: /opt/miniconda/bin/python
+2025-06-10 01:31:01.114 [info] Discovered env: /usr/bin/python
+2025-06-10 01:31:01.162 [info] Locator Conda took 126.287698ms
+2025-06-10 01:31:01.162 [info] Locator Homebrew took 306.689µs
+2025-06-10 01:31:01.162 [info] Locator LinuxGlobal took 125.262753ms
+2025-06-10 01:31:01.162 [info] Locator PipEnv took 67.027µs
+2025-06-10 01:31:01.162 [info] Locator Pixi took 60.307µs
+2025-06-10 01:31:01.162 [info] Locator Poetry took 404.003µs
+2025-06-10 01:31:01.162 [info] Locator PyEnv took 236.313µs
+2025-06-10 01:31:01.162 [info] Locator Venv took 106.845µs
+2025-06-10 01:31:01.162 [info] Locator VirtualEnv took 97.831µs
+2025-06-10 01:31:01.162 [info] Locator VirtualEnvWrapper took 64.377µs
+2025-06-10 01:31:01.162 [info] Locator GlobalVirtualEnvs took 298.033µs
+2025-06-10 01:31:01.162 [info] Locator Locators took 134.68681ms
+2025-06-10 01:31:01.162 [info] Locator Path took 180.914316ms
+2025-06-10 01:31:01.162 [info] Locator Workspaces took 13.449809ms
+2025-06-10 01:31:01.163 [info] Refresh completed in 181ms
+2025-06-10 01:31:23.815 [info] Resolved Python Environment /home/ubuntu/.venv/bin/python
+2025-06-10 01:31:27.187 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:31:29.827 [info] Resolved Python Environment /home/ubuntu/.venv/bin/python
+2025-06-10 01:32:04.901 [info] Resolved Python Environment /home/ubuntu/.venv/bin/python

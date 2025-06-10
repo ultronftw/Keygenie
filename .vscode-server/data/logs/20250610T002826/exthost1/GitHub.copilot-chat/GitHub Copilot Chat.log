@@ -1,0 +1,19 @@
+2025-06-10 00:28:38.409 [info] Can't use the Electron fetcher in this environment.
+2025-06-10 00:28:38.409 [info] Using the Node fetch fetcher.
+2025-06-10 00:28:38.409 [info] Initializing Git extension service.
+2025-06-10 00:28:38.409 [info] Successfully activated the vscode.git extension.
+2025-06-10 00:28:38.409 [info] Enablement state of the vscode.git extension: true.
+2025-06-10 00:28:38.409 [info] Successfully registered Git commit message provider.
+2025-06-10 00:28:45.908 [info] Logged in as ultronftw
+2025-06-10 00:28:46.883 [info] Got Copilot token for ultronftw
+2025-06-10 00:28:48.365 [info] Fetched model metadata in 1458ms 8d3ea573-94d0-4052-bc58-85536b37936d
+2025-06-10 00:28:48.394 [info] activationBlocker from 'languageModelAccess' took for 11242ms
+2025-06-10 00:28:49.509 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-06-10 00:28:49.509 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-06-10 00:28:49.536 [info] Registering default platform agent...
+2025-06-10 00:28:49.902 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-10 00:58:54.728 [info] Logged in as ultronftw
+2025-06-10 00:58:55.683 [info] Got Copilot token for ultronftw
+2025-06-10 00:58:58.058 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-06-10 00:58:58.186 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-10 01:14:02.005 [info] Fetched model metadata in 1500ms 9962b001-f02a-4f2a-98c3-470a7f7be81b

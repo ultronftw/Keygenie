@@ -1,0 +1,74 @@
+2025-06-10 00:28:35.892 [info] Starting Python Locator /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python-env-tools/bin/pet server
+2025-06-10 00:28:35.892 [info] Discovered env: /usr/bin/python
+2025-06-10 00:28:35.892 [info] Discovered env: /bin/python
+2025-06-10 00:28:35.892 [info] Discovered manager: (Conda) /opt/miniconda/bin/conda
+2025-06-10 00:28:35.892 [info] Discovered env: /opt/miniconda/bin/python
+2025-06-10 00:28:35.892 [info] Locator Conda took 120.519632ms
+2025-06-10 00:28:35.892 [info] Locator Homebrew took 348.973µs
+2025-06-10 00:28:35.892 [info] Locator LinuxGlobal took 100.159622ms
+2025-06-10 00:28:35.892 [info] Locator PipEnv took 99.401µs
+2025-06-10 00:28:35.892 [info] Locator Pixi took 484.029µs
+2025-06-10 00:28:35.892 [info] Locator Poetry took 1.441641ms
+2025-06-10 00:28:35.892 [info] Locator PyEnv took 3.421074ms
+2025-06-10 00:28:35.892 [info] Locator Venv took 66.41µs
+2025-06-10 00:28:35.892 [info] Locator VirtualEnv took 79.125µs
+2025-06-10 00:28:35.892 [info] Locator VirtualEnvWrapper took 110.705µs
+2025-06-10 00:28:35.892 [info] Locator GlobalVirtualEnvs took 578.859µs
+2025-06-10 00:28:35.892 [info] Locator Locators took 122.230855ms
+2025-06-10 00:28:35.892 [info] Locator Path took 145.356957ms
+2025-06-10 00:28:35.892 [info] Locator Workspaces took 13.203872ms
+2025-06-10 00:28:35.892 [info] Refresh completed in 145ms
+2025-06-10 00:28:40.220 [info] Discovered manager: (Conda) /opt/miniconda/bin/conda
+2025-06-10 00:28:40.242 [info] Discovered env: /opt/miniconda/bin/python
+2025-06-10 00:28:40.243 [info] Discovered env: /bin/python
+2025-06-10 00:28:40.243 [info] Discovered env: /usr/bin/python
+2025-06-10 00:28:40.243 [info] Resolved Python Environment /bin/python
+2025-06-10 00:28:40.247 [info] Locator Conda took 140.074618ms
+2025-06-10 00:28:40.247 [info] Locator Homebrew took 289.546µs
+2025-06-10 00:28:40.247 [info] Locator LinuxGlobal took 138.823098ms
+2025-06-10 00:28:40.247 [info] Locator PipEnv took 60.984µs
+2025-06-10 00:28:40.247 [info] Locator Pixi took 500.726µs
+2025-06-10 00:28:40.247 [info] Locator Poetry took 419.062µs
+2025-06-10 00:28:40.247 [info] Locator PyEnv took 743.917µs
+2025-06-10 00:28:40.247 [info] Locator Venv took 47.361µs
+2025-06-10 00:28:40.247 [info] Locator VirtualEnv took 83.206µs
+2025-06-10 00:28:40.247 [info] Locator VirtualEnvWrapper took 66.496µs
+2025-06-10 00:28:40.247 [info] Locator GlobalVirtualEnvs took 722.479µs
+2025-06-10 00:28:40.247 [info] Locator Locators took 145.630944ms
+2025-06-10 00:28:40.247 [info] Locator Path took 182.745406ms
+2025-06-10 00:28:40.247 [info] Locator Workspaces took 12.64567ms
+2025-06-10 00:28:40.247 [info] Refresh completed in 183ms
+2025-06-10 00:28:40.248 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:30:20.185 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:33:20.071 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:34:51.723 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:35:28.122 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:36:31.266 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:37:08.890 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:38:06.230 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:38:43.869 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:40:37.398 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:41:08.888 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:42:16.147 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:43:05.941 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:44:14.567 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:45:45.755 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:46:28.840 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:47:43.118 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:48:13.306 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:49:49.011 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:50:53.578 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:52:39.954 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:53:15.638 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:54:43.572 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:55:29.404 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:57:01.603 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 00:59:49.890 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:00:25.522 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:01:50.650 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:02:24.607 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:03:23.948 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:04:09.586 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:04:44.204 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:06:00.242 [info] Resolved Python Environment /usr/bin/python
+2025-06-10 01:16:51.558 [info] Resolved Python Environment /usr/bin/python

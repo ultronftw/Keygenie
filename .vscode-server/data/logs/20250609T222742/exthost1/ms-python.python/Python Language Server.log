@@ -1,0 +1,49 @@
+2025-06-09 22:29:45.729 [info] (Client) Pylance async client (2025.5.1) started with python extension (2025.6.1)
+2025-06-09 22:29:47.088 [info] [Info  - 10:29:47 PM] (6363) Server root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2025.5.1/dist
+2025-06-09 22:29:47.090 [info] [Info  - 10:29:47 PM] (6363) Pylance language server 2025.5.1 (pyright version 1.1.400, commit b962ffc2) starting
+2025-06-09 22:29:47.090 [info] [Info  - 10:29:47 PM] (6363) Starting service instance "ubuntu" for workspace "/home/ubuntu"
+2025-06-09 22:29:47.196 [info] [Info  - 10:29:47 PM] (6363) Setting environmentName for service "ubuntu": "3.10.12 (global)"
+2025-06-09 22:29:47.196 [info] [Info  - 10:29:47 PM] (6363) Setting pythonPath for service "ubuntu": "/bin/python"
+2025-06-09 22:29:47.197 [info] [Info  - 10:29:47 PM] (6363) No include entries specified; assuming /home/ubuntu
+2025-06-09 22:29:47.198 [info] [Info  - 10:29:47 PM] (6363) Auto-excluding **/node_modules
+2025-06-09 22:29:47.198 [info] [Info  - 10:29:47 PM] (6363) Auto-excluding **/__pycache__
+2025-06-09 22:29:47.198 [info] [Info  - 10:29:47 PM] (6363) Auto-excluding **/.*
+2025-06-09 22:29:47.246 [info] [Info  - 10:29:47 PM] (6363) Assuming Python version 3.10.12.final.0
+2025-06-09 22:29:47.362 [info] [Info  - 10:29:47 PM] (6363) Found 1 source file
+2025-06-09 22:29:47.386 [info] [Info  - 10:29:47 PM] (6363) Setting environmentName for service "ubuntu": "3.10.12 (global)"
+2025-06-09 22:29:47.386 [info] [Info  - 10:29:47 PM] (6363) Setting pythonPath for service "ubuntu": "/bin/python"
+2025-06-09 22:29:47.386 [info] [Info  - 10:29:47 PM] (6363) No include entries specified; assuming /home/ubuntu
+2025-06-09 22:29:47.386 [info] [Info  - 10:29:47 PM] (6363) Auto-excluding **/node_modules
+2025-06-09 22:29:47.386 [info] [Info  - 10:29:47 PM] (6363) Auto-excluding **/__pycache__
+2025-06-09 22:29:47.386 [info] [Info  - 10:29:47 PM] (6363) Auto-excluding **/.*
+2025-06-09 22:29:47.441 [info] [Info  - 10:29:47 PM] (6363) Assuming Python version 3.10.12.final.0
+2025-06-09 22:29:47.543 [info] [Info  - 10:29:47 PM] (6363) Found 1 source file
+2025-06-09 22:29:47.960 [info] [Info  - 10:29:47 PM] (6363) BG: Priority queue background worker(2) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2025.5.1/dist
+2025-06-09 22:29:47.960 [info] [Info  - 10:29:47 PM] (6363) BG: Priority queue background worker(2) started
+2025-06-09 22:29:48.361 [info] [Info  - 10:29:48 PM] (6363) BG: Indexer background runner(3) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2025.5.1/dist (index)
+2025-06-09 22:29:48.361 [info] [Info  - 10:29:48 PM] (6363) BG: Indexing(3) started
+2025-06-09 22:29:49.326 [info] [Info  - 10:29:49 PM] (6363) BG: scanned(3) 315 files over 1 exec env
+2025-06-09 22:29:54.266 [info] [Info  - 10:29:54 PM] (6363) BG: [IDX(3)] Long operation: index execution environment file:///home/ubuntu (4578ms)
+2025-06-09 22:29:54.294 [info] [Info  - 10:29:54 PM] (6363) BG: [IDX(3)] Long operation: index packages file:///home/ubuntu (4625ms)
+2025-06-09 22:29:54.294 [info] [Info  - 10:29:54 PM] (6363) BG: indexed(3) 315 files over 1 exec env
+2025-06-09 22:29:54.469 [info] [Info  - 10:29:54 PM] (6363) BG: Indexing finished(3).
+2025-06-09 22:34:38.958 [info] [Info  - 10:34:38 PM] (6363) Found 2 source files
+2025-06-09 22:52:50.187 [info] [Info  - 10:52:50 PM] (6363) Found 3 source files
+2025-06-09 23:46:17.061 [info] [Info  - 11:46:17 PM] (6363) Found 4 source files
+2025-06-10 00:14:48.285 [info] [Info  - 12:14:48 AM] (6363) 
+*Warning*: Pylance failed to parse docstring at offset 17
+
+ Outputting literal text instead.
+2025-06-10 00:24:35.747 [info] [Info  - 12:24:35 AM] (6363) Setting environmentName for service "ubuntu": "3.10.12 (global)"
+2025-06-10 00:24:35.748 [info] [Info  - 12:24:35 AM] (6363) Setting pythonPath for service "ubuntu": "/bin/python"
+2025-06-10 00:24:35.748 [info] [Info  - 12:24:35 AM] (6363) No include entries specified; assuming /home/ubuntu
+2025-06-10 00:24:35.749 [info] [Info  - 12:24:35 AM] (6363) Auto-excluding **/node_modules
+2025-06-10 00:24:35.749 [info] [Info  - 12:24:35 AM] (6363) Auto-excluding **/__pycache__
+2025-06-10 00:24:35.749 [info] [Info  - 12:24:35 AM] (6363) Auto-excluding **/.*
+2025-06-10 00:24:35.814 [info] [Info  - 12:24:35 AM] (6363) Assuming Python version 3.10.12.final.0
+2025-06-10 00:24:35.950 [info] [Info  - 12:24:35 AM] (6363) Found 4 source files
+2025-06-10 00:24:36.667 [info] [Info  - 12:24:36 AM] (6363) BG: Indexer background runner(4) root directory: file:///home/ubuntu/.vscode-server/extensions/ms-python.vscode-pylance-2025.5.1/dist (index)
+2025-06-10 00:24:36.667 [info] [Info  - 12:24:36 AM] (6363) BG: Indexing(4) started
+2025-06-10 00:24:37.193 [info] [Info  - 12:24:37 AM] (6363) BG: scanned(4) 315 files over 1 exec env
+2025-06-10 00:24:37.667 [info] [Info  - 12:24:37 AM] (6363) BG: indexed(4) 315 files over 1 exec env
+2025-06-10 00:24:37.788 [info] [Info  - 12:24:37 AM] (6363) BG: Indexing finished(4).

@@ -1,0 +1,79 @@
+2025-06-10 01:23:37.351 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-06-10 01:23:37.351 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-06-10 01:23:37.351 [info] Native locator: Refresh started
+2025-06-10 01:23:37.351 [info] Conda environment manager found at: /opt/miniconda/bin/conda
+2025-06-10 01:23:37.351 [info] Using conda: /opt/miniconda/bin/conda
+2025-06-10 01:23:37.351 [info] Native locator: Refresh finished in 402 ms
+2025-06-10 01:23:37.351 [info] Native locator: Refresh started
+2025-06-10 01:23:37.903 [info] > pyenv which python
+2025-06-10 01:23:37.903 [info] cwd: .
+2025-06-10 01:23:40.338 [info] Conda environment manager found at: /opt/miniconda/bin/conda
+2025-06-10 01:23:40.338 [info] Conda set to: /opt/miniconda/bin/conda
+2025-06-10 01:23:41.803 [info] Python interpreter path: /bin/python
+2025-06-10 01:23:41.810 [info] Native locator: Refresh finished in 6393 ms
+2025-06-10 01:23:55.502 [info] Starting Pylance language server.
+2025-06-10 01:24:27.325 [info] Python interpreter path: /usr/bin/python
+2025-06-10 01:30:56.308 [info] Send text to terminal: /usr/bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:31:00.960 [info] Selected workspace /home/ubuntu for creating virtual environment.
+2025-06-10 01:31:00.977 [info] Native locator: Refresh started
+2025-06-10 01:31:01.108 [info] Conda environment manager found at: /opt/miniconda/bin/conda
+2025-06-10 01:31:01.108 [info] Conda set to: /opt/miniconda/bin/conda
+2025-06-10 01:31:01.164 [info] Native locator: Refresh finished in 187 ms
+2025-06-10 01:31:05.129 [info] Selected interpreter /bin/python for creating virtual environment.
+2025-06-10 01:31:23.201 [info] Running Env creation script:  [
+  '/bin/python',
+  '/home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py',
+  '--git-ignore',
+  '--requirements',
+  '/home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt'
+]
+2025-06-10 01:31:23.201 [info] > /bin/python ./.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/create_venv.py --git-ignore --requirements ./.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt
+2025-06-10 01:31:23.201 [info] cwd: .
+2025-06-10 01:31:23.300 [info] Running: /bin/python -m venv .venv
+2025-06-10 01:31:26.266 [info] CREATED_VENV:/home/ubuntu/.venv/bin/python
+2025-06-10 01:31:26.267 [info] Creating: /home/ubuntu/.venv/.gitignore
+CREATE_VENV.UPGRADING_PIP
+Running: /home/ubuntu/.venv/bin/python -m pip install --upgrade pip
+2025-06-10 01:31:26.724 [info] Requirement already satisfied: pip in ./.venv/lib/python3.10/site-packages (22.0.2)
+2025-06-10 01:31:26.961 [info] Collecting pip
+2025-06-10 01:31:27.058 [info]   Downloading pip-25.1.1-py3-none-any.whl (1.8 MB)
+2025-06-10 01:31:27.141 [info]      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 23.6 MB/s eta 0:00:00
+2025-06-10 01:31:27.141 [info] 
+2025-06-10 01:31:27.192 [info] Installing collected packages: pip
+  Attempting uninstall: pip
+2025-06-10 01:31:27.193 [info]     Found existing installation: pip 22.0.2
+2025-06-10 01:31:27.436 [info]     Uninstalling pip-22.0.2:
+2025-06-10 01:31:27.441 [info]       Successfully uninstalled pip-22.0.2
+2025-06-10 01:31:28.105 [info] Successfully installed pip-25.1.1
+2025-06-10 01:31:28.171 [info] CREATE_VENV.UPGRADED_PIP
+VENV_INSTALLING_REQUIREMENTS: ['/home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt']
+VENV_INSTALLING_REQUIREMENTS: /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt
+Running: /home/ubuntu/.venv/bin/python -m pip install -r /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt
+2025-06-10 01:31:28.754 [info] Collecting importlib-metadata==8.6.1 (from -r /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt (line 3))
+2025-06-10 01:31:28.815 [info]   Downloading importlib_metadata-8.6.1-py3-none-any.whl (26 kB)
+2025-06-10 01:31:28.895 [info] Collecting microvenv==2023.5.post1 (from -r /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt (line 7))
+2025-06-10 01:31:28.907 [info]   Downloading microvenv-2023.5.post1-py3-none-any.whl (8.2 kB)
+2025-06-10 01:31:28.945 [info] Collecting packaging==25.0 (from -r /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt (line 11))
+2025-06-10 01:31:28.957 [info]   Downloading packaging-25.0-py3-none-any.whl (66 kB)
+2025-06-10 01:31:29.035 [info] Collecting tomli==2.2.1 (from -r /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt (line 15))
+2025-06-10 01:31:29.040 [info]   Downloading tomli-2.2.1-py3-none-any.whl (14 kB)
+2025-06-10 01:31:29.071 [info] Collecting typing-extensions==4.13.2 (from -r /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt (line 49))
+2025-06-10 01:31:29.076 [info]   Downloading typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+2025-06-10 01:31:29.116 [info] Collecting zipp==3.21.0 (from -r /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/requirements.txt (line 53))
+2025-06-10 01:31:29.121 [info]   Downloading zipp-3.21.0-py3-none-any.whl (9.6 kB)
+2025-06-10 01:31:29.162 [info] Installing collected packages: zipp, typing-extensions, tomli, packaging, microvenv, importlib-metadata
+2025-06-10 01:31:29.290 [info] 
+2025-06-10 01:31:29.291 [info] Successfully installed importlib-metadata-8.6.1 microvenv-2023.5.post1 packaging-25.0 tomli-2.2.1 typing-extensions-4.13.2 zipp-3.21.0
+2025-06-10 01:31:29.456 [info] CREATE_VENV.PIP_INSTALLED_REQUIREMENTS
+2025-06-10 01:31:29.819 [info] Active interpreter [/home/ubuntu]:  /home/ubuntu/.venv/bin/python
+2025-06-10 01:31:29.828 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu
+2025-06-10 01:31:29.828 [info] Python interpreter path: ./.venv/bin/python
+2025-06-10 01:31:30.570 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariables.py
+2025-06-10 01:31:30.570 [info] shell: bash
+2025-06-10 01:31:30.622 [info] > /bin/python ./.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariables.py
+2025-06-10 01:31:30.622 [info] shell: bash
+2025-06-10 01:31:30.656 [info] Setting environment variable VIRTUAL_ENV in collection to /home/ubuntu/.venv {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-10 01:31:30.656 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-10 01:31:30.656 [info] Prepending environment variable PS1 in collection with (.venv)  {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-06-10 01:31:30.656 [info] Prepending environment variable PATH in collection with /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash:/home/ubuntu/.venv/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-06-10 01:31:30.657 [info] Send text to terminal: /bin/python /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/printEnvVariablesToFile.py /home/ubuntu/.vscode-server/extensions/ms-python.python-2025.6.1-linux-x64/python_files/deactivate/bash/envVars.txt

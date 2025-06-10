@@ -1,0 +1,20 @@
+2025-06-10 00:28:26.989 [info] 
+
+
+
+
+2025-06-10 00:28:26.997 [info] Installing extensions...
+2025-06-10 00:28:27.001 [info] Extension host agent started.
+2025-06-10 00:28:27.069 [info] ComputeTargetPlatform: linux-x64
+2025-06-10 00:28:27.112 [info] Extension 'blackboxapp.blackboxagent' v3.2.95 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'blackboxapp.blackboxagent@1.2.3'.
+2025-06-10 00:28:27.662 [info] [<unknown>][70357b4d][ExtensionHostConnection] New connection established.
+2025-06-10 00:28:27.697 [info] [<unknown>][8a4898de][ManagementConnection] New connection established.
+2025-06-10 00:28:27.815 [info] [<unknown>][70357b4d][ExtensionHostConnection] <2791> Launched Extension Host Process.
+2025-06-10 00:28:30.907 [info] ComputeTargetPlatform: linux-x64
+2025-06-10 00:33:27.003 [info] New EH opened, aborting shutdown
+2025-06-10 01:17:35.931 [info] [<unknown>][8a4898de][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-10 01:17:36.194 [info] [<unknown>][70357b4d][ExtensionHostConnection] <2791> Extension Host Process exited with code: 0, signal: null.
+2025-06-10 01:17:36.195 [info] Last EH closed, waiting before shutting down
+2025-06-10 01:17:41.580 [info] [<unknown>][176a8c9b][ManagementConnection] New connection established.
+2025-06-10 01:17:41.584 [info] [<unknown>][2fc207a0][ExtensionHostConnection] New connection established.
+2025-06-10 01:17:41.594 [info] [<unknown>][2fc207a0][ExtensionHostConnection] <9162> Launched Extension Host Process.

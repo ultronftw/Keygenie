@@ -1,0 +1,19 @@
+2025-06-10 01:17:49.704 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-06-10 01:17:49.704 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-06-10 01:17:49.704 [info] Native locator: Refresh started
+2025-06-10 01:17:49.704 [info] Conda environment manager found at: /opt/miniconda/bin/conda
+2025-06-10 01:17:49.704 [info] Using conda: /opt/miniconda/bin/conda
+2025-06-10 01:17:49.704 [info] Native locator: Refresh finished in 460 ms
+2025-06-10 01:17:49.704 [info] Native locator: Refresh started
+2025-06-10 01:17:50.542 [info] > pyenv which python
+2025-06-10 01:17:50.542 [info] cwd: .
+2025-06-10 01:17:52.027 [info] Conda environment manager found at: /opt/miniconda/bin/conda
+2025-06-10 01:17:52.027 [info] Conda set to: /opt/miniconda/bin/conda
+2025-06-10 01:17:52.054 [info] Python interpreter path: /usr/bin/python
+2025-06-10 01:17:52.056 [info] Native locator: Refresh finished in 4237 ms
+2025-06-10 01:18:00.388 [info] Python interpreter path: /bin/python
+2025-06-10 01:18:05.460 [info] Send text to terminal: /bin/python /home/ubuntu/keygenie_bot.py
+2025-06-10 01:18:06.822 [info] Starting Pylance language server.
+2025-06-10 01:21:18.922 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/test_keygenie_bot.py
+2025-06-10 01:21:21.026 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/config.py
+2025-06-10 01:21:22.233 [info] Discover tests for workspace name: ubuntu - uri: /home/ubuntu/keygenie_bot.py
